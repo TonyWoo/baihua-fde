@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 300" font-family="sans-serif">
+  <rect x="0" y="0" width="800" height="300" fill="#f5f8ff"/>
+  <text x="400" y="36" font-size="20" fill="#2563eb" text-anchor="middle" font-weight="bold">退出策略：从签约第一天开始准备</text>
+  <defs>
+    <marker id="arr19" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <line x1="60" y1="130" x2="740" y2="130" stroke="#2563eb" stroke-width="2" marker-end="url(#arr19)"/>
+  <circle cx="110" cy="130" r="8" fill="#2563eb"/>
+  <circle cx="320" cy="130" r="8" fill="#2563eb"/>
+  <circle cx="530" cy="130" r="8" fill="#ea580c"/>
+  <circle cx="700" cy="130" r="8" fill="#2563eb"/>
+  <text x="110" y="100" font-size="15" fill="#1e293b" text-anchor="middle">签约时</text>
+  <text x="110" y="168" font-size="13" fill="#64748b" text-anchor="middle">把退出条款</text>
+  <text x="110" y="190" font-size="13" fill="#64748b" text-anchor="middle">写进合同</text>
+  <text x="320" y="100" font-size="15" fill="#1e293b" text-anchor="middle">驻场中</text>
+  <text x="320" y="168" font-size="13" fill="#64748b" text-anchor="middle">自己人双人跟学</text>
+  <text x="320" y="190" font-size="13" fill="#64748b" text-anchor="middle">文档同步更新</text>
+  <text x="530" y="100" font-size="15" fill="#1e293b" text-anchor="middle">撤场验收</text>
+  <text x="530" y="168" font-size="13" fill="#ea580c" text-anchor="middle">以独立排障为准</text>
+  <text x="530" y="190" font-size="13" fill="#64748b" text-anchor="middle">不是以人走了为准</text>
+  <text x="700" y="100" font-size="15" fill="#1e293b" text-anchor="middle">撤场之后</text>
+  <text x="700" y="168" font-size="13" fill="#64748b" text-anchor="middle">答疑期内独立运行</text>
+  <text x="700" y="190" font-size="13" fill="#64748b" text-anchor="middle">数据随时可导出</text>
+  <text x="400" y="252" font-size="13" fill="#64748b" text-anchor="middle">四个动作全部发生在厂商还在场、双方还讲道理的时候</text>
+</svg>

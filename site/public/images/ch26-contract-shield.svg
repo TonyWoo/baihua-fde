@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="sans-serif">
+<rect width="800" height="400" fill="#f5f8ff"/>
+<text x="40" y="42" font-size="20" fill="#1e40af">合同四条线：进场之前先划好</text>
+<rect x="40" y="80" width="230" height="86" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="155" y="112" font-size="15" fill="#0f172a" text-anchor="middle">数据归谁</text>
+<text x="155" y="138" font-size="13" fill="#64748b" text-anchor="middle">业务数据与工艺参数归客户</text>
+<rect x="530" y="80" width="230" height="86" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="645" y="112" font-size="15" fill="#0f172a" text-anchor="middle">不拿去训模型</text>
+<text x="645" y="138" font-size="13" fill="#64748b" text-anchor="middle">客户数据不进对方训练集</text>
+<rect x="285" y="150" width="230" height="100" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+<text x="400" y="190" font-size="15" fill="#ea580c" text-anchor="middle">一份写清楚的合同</text>
+<text x="400" y="216" font-size="13" fill="#64748b" text-anchor="middle">四条线缺一条，风险多一分</text>
+<rect x="40" y="234" width="230" height="86" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="155" y="266" font-size="15" fill="#0f172a" text-anchor="middle">知识要转移</text>
+<text x="155" y="292" font-size="13" fill="#64748b" text-anchor="middle">文档、评估集、带教都要交付</text>
+<rect x="530" y="234" width="230" height="86" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="645" y="266" font-size="15" fill="#0f172a" text-anchor="middle">退出有路走</text>
+<text x="645" y="292" font-size="13" fill="#64748b" text-anchor="middle">标准格式导出，不另收费</text>
+<line x1="270" y1="123" x2="285" y2="160" stroke="#64748b" stroke-width="2"/>
+<line x1="530" y1="123" x2="515" y2="160" stroke="#64748b" stroke-width="2"/>
+<line x1="270" y1="277" x2="285" y2="240" stroke="#64748b" stroke-width="2"/>
+<line x1="530" y1="277" x2="515" y2="240" stroke="#64748b" stroke-width="2"/>
+<text x="400" y="362" font-size="13" fill="#64748b" text-anchor="middle">信任靠关系维持，边界靠合同维持，两样都要有。</text>
+</svg>

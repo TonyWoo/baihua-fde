@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="sans-serif">
+  <rect x="0" y="0" width="800" height="400" fill="#f5f8ff"/>
+  <text x="400" y="34" font-size="20" fill="#2563eb" text-anchor="middle" font-weight="bold">三种收费模式算账对比</text>
+  <text x="400" y="58" font-size="13" fill="#64748b" text-anchor="middle">同一支三人小队，驻场 45 天，数字为虚构示例</text>
+  <rect x="40" y="80" width="226" height="270" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="153" y="110" font-size="15" fill="#1e293b" text-anchor="middle">按人天</text>
+  <text x="153" y="146" font-size="13" fill="#64748b" text-anchor="middle">每人每天约 6000 元</text>
+  <text x="153" y="176" font-size="15" fill="#1e293b" text-anchor="middle">本单收入 约 81 万元</text>
+  <text x="153" y="206" font-size="13" fill="#64748b" text-anchor="middle">收入：确定，当场可算</text>
+  <text x="153" y="232" font-size="13" fill="#64748b" text-anchor="middle">风险：几乎全在客户</text>
+  <text x="153" y="258" font-size="13" fill="#64748b" text-anchor="middle">激励：干得越慢收得越多</text>
+  <text x="153" y="310" font-size="13" fill="#ea580c" text-anchor="middle">毛病：卖的是时间</text>
+  <rect x="287" y="80" width="226" height="270" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="400" y="110" font-size="15" fill="#1e293b" text-anchor="middle">按结果</text>
+  <text x="400" y="146" font-size="13" fill="#64748b" text-anchor="middle">达标全额，超额有奖</text>
+  <text x="400" y="176" font-size="15" fill="#1e293b" text-anchor="middle">本单收入 0 到 120 万元</text>
+  <text x="400" y="206" font-size="13" fill="#64748b" text-anchor="middle">收入：看指标脸色</text>
+  <text x="400" y="232" font-size="13" fill="#64748b" text-anchor="middle">风险：双方共担</text>
+  <text x="400" y="258" font-size="13" fill="#64748b" text-anchor="middle">激励：只想把结果做出来</text>
+  <text x="400" y="310" font-size="13" fill="#ea580c" text-anchor="middle">毛病：总价要含风险补偿</text>
+  <rect x="534" y="80" width="226" height="270" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="647" y="110" font-size="15" fill="#1e293b" text-anchor="middle">打包进大合同</text>
+  <text x="647" y="146" font-size="13" fill="#64748b" text-anchor="middle">含在年度总价约 300 万内</text>
+  <text x="647" y="176" font-size="15" fill="#1e293b" text-anchor="middle">本单收入 不单独结算</text>
+  <text x="647" y="206" font-size="13" fill="#64748b" text-anchor="middle">收入：平滑，可预测</text>
+  <text x="647" y="232" font-size="13" fill="#64748b" text-anchor="middle">风险：藏在总盘子里</text>
+  <text x="647" y="258" font-size="13" fill="#64748b" text-anchor="middle">激励：看重续约与增购</text>
+  <text x="647" y="310" font-size="13" fill="#ea580c" text-anchor="middle">毛病：账算不清</text>
+  <text x="400" y="378" font-size="13" fill="#64748b" text-anchor="middle">现实中多用混合结构：人天保底线，结果定上限</text>
+</svg>

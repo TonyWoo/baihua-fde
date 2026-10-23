@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect width="800" height="400" fill="#f5f8ff"/>
+  <text x="400" y="42" font-size="20" font-weight="bold" fill="#2563eb" text-anchor="middle">演示版到生产版：中间隔着五道关</text>
+  <rect x="60" y="80" width="240" height="170" rx="6" fill="#ffffff" stroke="#64748b" stroke-width="2"/>
+  <text x="180" y="112" font-size="15" font-weight="bold" fill="#64748b" text-anchor="middle">演示版</text>
+  <text x="180" y="146" font-size="15" fill="#334155" text-anchor="middle">样例数据，挑过的</text>
+  <text x="180" y="176" font-size="15" fill="#334155" text-anchor="middle">会议室网络</text>
+  <text x="180" y="206" font-size="15" fill="#334155" text-anchor="middle">出错就重跑一遍</text>
+  <text x="180" y="236" font-size="15" fill="#334155" text-anchor="middle">演示的人自己操作</text>
+  <rect x="500" y="80" width="240" height="170" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+  <text x="620" y="112" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">生产版</text>
+  <text x="620" y="146" font-size="15" fill="#334155" text-anchor="middle">真实数据，什么都有</text>
+  <text x="620" y="176" font-size="15" fill="#334155" text-anchor="middle">产线隔离网络</text>
+  <text x="620" y="206" font-size="15" fill="#334155" text-anchor="middle">出错能查、能回滚</text>
+  <text x="620" y="236" font-size="15" fill="#334155" text-anchor="middle">三个班组轮流使用</text>
+  <line x1="305" y1="165" x2="495" y2="165" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <rect x="120" y="285" width="560" height="56" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="400" y="320" font-size="15" fill="#2563eb" text-anchor="middle">五道关：真数据、权限、网络隔离、异常处置、回滚方案</text>
+  <text x="400" y="372" font-size="13" fill="#64748b" text-anchor="middle">演示回答「能不能做」，生产回答「天天能不能用」</text>
+</svg>

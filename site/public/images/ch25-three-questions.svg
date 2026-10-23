@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="sans-serif">
+<rect width="800" height="500" fill="#f5f8ff"/>
+<defs>
+<marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+<path d="M0,0 L8,4 L0,8 z" fill="#2563eb"/>
+</marker>
+<marker id="arrg" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+<path d="M0,0 L8,4 L0,8 z" fill="#64748b"/>
+</marker>
+</defs>
+<text x="40" y="42" font-size="20" fill="#1e40af">真假 FDE 三问：一问一答，答不上就现形</text>
+<rect x="120" y="70" width="360" height="62" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="300" y="96" font-size="15" fill="#0f172a" text-anchor="middle">一问：亲手写生产代码吗？</text>
+<text x="300" y="118" font-size="13" fill="#64748b" text-anchor="middle">代码进客户仓库，上线运行</text>
+<rect x="540" y="70" width="220" height="62" rx="6" fill="#ffffff" stroke="#64748b" stroke-width="2"/>
+<text x="650" y="96" font-size="13" fill="#64748b" text-anchor="middle">答不上：只改配置和界面</text>
+<text x="650" y="118" font-size="13" fill="#64748b" text-anchor="middle">本质是实施顾问</text>
+<line x1="480" y1="101" x2="534" y2="101" stroke="#64748b" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrg)"/>
+<line x1="300" y1="132" x2="300" y2="162" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="120" y="168" width="360" height="62" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="300" y="194" font-size="15" fill="#0f172a" text-anchor="middle">二问：对业务结果负责吗？</text>
+<text x="300" y="216" font-size="13" fill="#64748b" text-anchor="middle">指标写进约定，做不到要认</text>
+<rect x="540" y="168" width="220" height="62" rx="6" fill="#ffffff" stroke="#64748b" stroke-width="2"/>
+<text x="650" y="194" font-size="13" fill="#64748b" text-anchor="middle">答不上：只对进度表负责</text>
+<text x="650" y="216" font-size="13" fill="#64748b" text-anchor="middle">本质是驻场外包</text>
+<line x1="480" y1="199" x2="534" y2="199" stroke="#64748b" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrg)"/>
+<line x1="300" y1="230" x2="300" y2="260" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="120" y="266" width="360" height="62" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="300" y="292" font-size="15" fill="#0f172a" text-anchor="middle">三问：走后留下能跑的系统吗？</text>
+<text x="300" y="314" font-size="13" fill="#64748b" text-anchor="middle">系统、文档、接班人都在客户手里</text>
+<rect x="540" y="266" width="220" height="62" rx="6" fill="#ffffff" stroke="#64748b" stroke-width="2"/>
+<text x="650" y="292" font-size="13" fill="#64748b" text-anchor="middle">答不上：人走系统就停</text>
+<text x="650" y="314" font-size="13" fill="#64748b" text-anchor="middle">本质是长期驻场</text>
+<line x1="480" y1="297" x2="534" y2="297" stroke="#64748b" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrg)"/>
+<line x1="300" y1="328" x2="300" y2="358" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="120" y="364" width="360" height="62" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+<text x="300" y="390" font-size="15" fill="#ea580c" text-anchor="middle">三问全过：名实相符的 FDE</text>
+<text x="300" y="412" font-size="13" fill="#64748b" text-anchor="middle">贵有贵的道理，可以谈</text>
+<text x="40" y="468" font-size="13" fill="#64748b">注：答不上的不一定是坏服务，只是不能按 FDE 的价格买。</text>
+</svg>

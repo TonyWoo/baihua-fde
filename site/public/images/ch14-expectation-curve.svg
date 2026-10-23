@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="sans-serif">
+  <rect width="800" height="400" fill="#f5f8ff"/>
+  <text x="400" y="34" font-size="20" fill="#1e3a5f" text-anchor="middle" font-weight="bold">预期管理：别让差距攒到验收那天</text>
+  <line x1="90" y1="320" x2="740" y2="320" stroke="#64748b" stroke-width="2"/>
+  <line x1="90" y1="320" x2="90" y2="70" stroke="#64748b" stroke-width="2"/>
+  <text x="46" y="200" font-size="13" fill="#64748b" text-anchor="middle" transform="rotate(-90 46 200)">效果</text>
+  <text x="720" y="345" font-size="13" fill="#64748b">周</text>
+  <g stroke="#64748b" stroke-width="1" stroke-dasharray="4 4">
+    <line x1="215" y1="320" x2="215" y2="255"/>
+    <line x1="340" y1="320" x2="340" y2="228"/>
+    <line x1="465" y1="320" x2="465" y2="192"/>
+    <line x1="590" y1="320" x2="590" y2="152"/>
+  </g>
+  <polyline points="90,300 215,255 340,228 465,192 590,152 700,118" fill="none" stroke="#2563eb" stroke-width="2"/>
+  <polyline points="90,300 700,78" fill="none" stroke="#ea580c" stroke-width="2" stroke-dasharray="7 5"/>
+  <g fill="#2563eb">
+    <circle cx="215" cy="255" r="4"/>
+    <circle cx="340" cy="228" r="4"/>
+    <circle cx="465" cy="192" r="4"/>
+    <circle cx="590" cy="152" r="4"/>
+  </g>
+  <text x="560" y="66" font-size="14" fill="#ea580c">客户最初的想象</text>
+  <text x="470" y="112" font-size="14" fill="#2563eb">实际进展（台阶式）</text>
+  <g font-size="13" fill="#64748b" text-anchor="middle">
+    <text x="215" y="345">第 1 周对账</text>
+    <text x="340" y="345">第 2 周</text>
+    <text x="465" y="345">第 3 周</text>
+    <text x="590" y="345">第 4 周</text>
+  </g>
+  <text x="400" y="380" font-size="13" fill="#64748b" text-anchor="middle">每周对一次账：进展、风险、下一步，当场把想象拉回地面</text>
+</svg>

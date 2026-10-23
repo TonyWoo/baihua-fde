@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="sans-serif">
+<rect width="800" height="420" fill="#f5f8ff"/>
+<defs>
+<marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+<path d="M0,0 L8,4 L0,8 z" fill="#2563eb"/>
+</marker>
+</defs>
+<text x="40" y="42" font-size="20" fill="#1e40af">锁定是垫高的：一层方便，垫一层依赖</text>
+<rect x="40" y="290" width="170" height="76" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="125" y="320" font-size="15" fill="#0f172a" text-anchor="middle">第一层 图方便</text>
+<text x="125" y="344" font-size="13" fill="#64748b" text-anchor="middle">全用对方私有接口</text>
+<rect x="225" y="228" width="170" height="76" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="310" y="258" font-size="15" fill="#0f172a" text-anchor="middle">第二层 数据入瓮</text>
+<text x="310" y="282" font-size="13" fill="#64748b" text-anchor="middle">格式只有对方能解</text>
+<rect x="410" y="166" width="170" height="76" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="495" y="196" font-size="15" fill="#0f172a" text-anchor="middle">第三层 知识外流</text>
+<text x="495" y="220" font-size="13" fill="#64748b" text-anchor="middle">懂系统的人都在对方</text>
+<rect x="595" y="104" width="170" height="76" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+<text x="680" y="134" font-size="15" fill="#ea580c" text-anchor="middle">第四层 换不动</text>
+<text x="680" y="158" font-size="13" fill="#64748b" text-anchor="middle">退出成本高到只能续约</text>
+<line x1="210" y1="300" x2="222" y2="272" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="395" y1="238" x2="407" y2="210" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="580" y1="176" x2="592" y2="148" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+<text x="40" y="398" font-size="13" fill="#64748b">每一层单看都无害，四层叠满，再谈价格就没有议价权了。</text>
+</svg>

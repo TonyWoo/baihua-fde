@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="sans-serif">
+  <rect x="0" y="0" width="800" height="340" fill="#f5f8ff"/>
+  <text x="400" y="36" font-size="20" fill="#2563eb" text-anchor="middle" font-weight="bold">签约时要立起的四面盾</text>
+  <rect x="40" y="70" width="350" height="100" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="215" y="102" font-size="15" fill="#1e293b" text-anchor="middle">第一面 IP 归属</text>
+  <text x="215" y="130" font-size="13" fill="#64748b" text-anchor="middle">现场定制与数据资产，归谁写清楚</text>
+  <text x="215" y="152" font-size="13" fill="#64748b" text-anchor="middle">厂商本体归厂商，你的成果归你</text>
+  <rect x="410" y="70" width="350" height="100" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+  <text x="585" y="102" font-size="15" fill="#1e293b" text-anchor="middle">第二面 数据用途</text>
+  <text x="585" y="130" font-size="13" fill="#64748b" text-anchor="middle">数据不用于训练厂商模型</text>
+  <text x="585" y="152" font-size="13" fill="#64748b" text-anchor="middle">更不能用来服务你的同行</text>
+  <rect x="40" y="190" width="350" height="100" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="215" y="222" font-size="15" fill="#1e293b" text-anchor="middle">第三面 退出策略</text>
+  <text x="215" y="250" font-size="13" fill="#64748b" text-anchor="middle">结束条件、交接标准、答疑期</text>
+  <text x="215" y="272" font-size="13" fill="#64748b" text-anchor="middle">签约前谈好，不等撤场时谈</text>
+  <rect x="410" y="190" width="350" height="100" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="585" y="222" font-size="15" fill="#1e293b" text-anchor="middle">第四面 知识转移</text>
+  <text x="585" y="250" font-size="13" fill="#64748b" text-anchor="middle">双人跟学，手册录像齐全</text>
+  <text x="585" y="272" font-size="13" fill="#64748b" text-anchor="middle">你的人能独立排障才算交接</text>
+</svg>

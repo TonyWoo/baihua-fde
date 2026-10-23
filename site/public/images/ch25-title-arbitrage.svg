@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="sans-serif">
+<rect width="800" height="340" fill="#f5f8ff"/>
+<defs>
+<marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+<path d="M0,0 L8,4 L0,8 z" fill="#ea580c"/>
+</marker>
+</defs>
+<text x="40" y="42" font-size="20" fill="#1e40af">标题套利：瓶子没换，只换了标签</text>
+<rect x="40" y="90" width="230" height="130" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="155" y="122" font-size="15" fill="#0f172a" text-anchor="middle">原来的活</text>
+<text x="155" y="150" font-size="13" fill="#64748b" text-anchor="middle">实施顾问驻场</text>
+<text x="155" y="174" font-size="13" fill="#64748b" text-anchor="middle">改配置、做培训</text>
+<text x="155" y="198" font-size="13" fill="#64748b" text-anchor="middle">按人天收费</text>
+<line x1="270" y1="155" x2="524" y2="155" stroke="#ea580c" stroke-width="2" marker-end="url(#arr)"/>
+<text x="400" y="130" font-size="15" fill="#ea580c" text-anchor="middle">只换标签</text>
+<text x="400" y="190" font-size="13" fill="#64748b" text-anchor="middle">人没变，活没变</text>
+<rect x="530" y="90" width="230" height="130" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+<text x="645" y="122" font-size="15" fill="#0f172a" text-anchor="middle">换名之后</text>
+<text x="645" y="150" font-size="13" fill="#64748b" text-anchor="middle">自称 FDE 团队</text>
+<text x="645" y="174" font-size="13" fill="#64748b" text-anchor="middle">报价涨一大截</text>
+<text x="645" y="198" font-size="13" fill="#64748b" text-anchor="middle">交付还是老样子</text>
+<text x="400" y="272" font-size="15" fill="#1e40af" text-anchor="middle">名和实一起升级，才不叫套利</text>
+<text x="400" y="300" font-size="13" fill="#64748b" text-anchor="middle">a16z 把这种只换名字涨价的现象称作「标题套利」</text>
+</svg>

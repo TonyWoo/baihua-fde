@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="sans-serif">
+  <rect x="0" y="0" width="800" height="340" fill="#f5f8ff"/>
+  <text x="400" y="36" font-size="20" fill="#2563eb" text-anchor="middle" font-weight="bold">陆远带回的三个做法，三种命运</text>
+  <rect x="40" y="70" width="226" height="200" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="153" y="102" font-size="15" fill="#1e293b" text-anchor="middle">报警码对照表</text>
+  <text x="153" y="132" font-size="13" fill="#64748b" text-anchor="middle">每家工厂都有</text>
+  <text x="153" y="154" font-size="13" fill="#64748b" text-anchor="middle">自己的报警码体系</text>
+  <text x="153" y="196" font-size="15" fill="#2563eb" text-anchor="middle">命运：进产品</text>
+  <text x="153" y="222" font-size="13" fill="#64748b" text-anchor="middle">做成通用导入功能</text>
+  <text x="153" y="244" font-size="13" fill="#64748b" text-anchor="middle">三个月后随版本发布</text>
+  <rect x="287" y="70" width="226" height="200" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="400" y="102" font-size="15" fill="#1e293b" text-anchor="middle">质检复核流程</text>
+  <text x="400" y="132" font-size="13" fill="#64748b" text-anchor="middle">做法通用</text>
+  <text x="400" y="154" font-size="13" fill="#64748b" text-anchor="middle">细节只合这一家工艺</text>
+  <text x="400" y="196" font-size="15" fill="#2563eb" text-anchor="middle">命运：留作模板</text>
+  <text x="400" y="222" font-size="13" fill="#64748b" text-anchor="middle">整理成制造业模板</text>
+  <text x="400" y="244" font-size="13" fill="#64748b" text-anchor="middle">新客户照着改更快</text>
+  <rect x="534" y="70" width="226" height="200" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+  <text x="647" y="102" font-size="15" fill="#1e293b" text-anchor="middle">管理层统计页面</text>
+  <text x="647" y="132" font-size="13" fill="#64748b" text-anchor="middle">口径排版全是</text>
+  <text x="647" y="154" font-size="13" fill="#64748b" text-anchor="middle">这一家厂的汇报习惯</text>
+  <text x="647" y="196" font-size="15" fill="#ea580c" text-anchor="middle">命运：被否决</text>
+  <text x="647" y="222" font-size="13" fill="#64748b" text-anchor="middle">留在客户侧维护</text>
+  <text x="647" y="244" font-size="13" fill="#64748b" text-anchor="middle">不给产品添负担</text>
+  <text x="400" y="306" font-size="13" fill="#64748b" text-anchor="middle">被否决不是坏事，说明复盘会上真有人在把关</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="sans-serif">
+<rect width="800" height="400" fill="#f5f8ff"/>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/></marker></defs>
+<text x="400" y="40" font-size="20" font-weight="bold" fill="#2563eb" text-anchor="middle">按项目阶段看分工</text>
+<text x="400" y="66" font-size="13" fill="#64748b" text-anchor="middle">每个阶段都有一个明确的负责人</text>
+<rect x="25" y="120" width="180" height="140" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="115.0" y="156.0" font-size="13" fill="#64748b" text-anchor="middle">签约前</text>
+<text x="115.0" y="182.0" font-size="15" fill="#2563eb" text-anchor="middle">售前</text>
+<text x="115.0" y="208.0" font-size="12" fill="#1e3a5f" text-anchor="middle">讲清能解决什么</text>
+<text x="115.0" y="234.0" font-size="12" fill="#1e3a5f" text-anchor="middle">负责赢下订单</text>
+<line x1="207" y1="190" x2="218" y2="190" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="220" y="120" width="180" height="140" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="310.0" y="156.0" font-size="13" fill="#64748b" text-anchor="middle">设计</text>
+<text x="310.0" y="182.0" font-size="15" fill="#2563eb" text-anchor="middle">解决方案架构师</text>
+<text x="310.0" y="208.0" font-size="12" fill="#1e3a5f" text-anchor="middle">出图纸定路线</text>
+<text x="310.0" y="234.0" font-size="12" fill="#1e3a5f" text-anchor="middle">软件工程师在后方造产品</text>
+<line x1="402" y1="190" x2="413" y2="190" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="415" y="120" width="180" height="140" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+<text x="505.0" y="156.0" font-size="13" fill="#64748b" text-anchor="middle">交付期</text>
+<text x="505.0" y="182.0" font-size="15" fill="#2563eb" text-anchor="middle">实施顾问 加 FDE</text>
+<text x="505.0" y="208.0" font-size="12" fill="#1e3a5f" text-anchor="middle">实施装好标准系统</text>
+<text x="505.0" y="234.0" font-size="12" fill="#1e3a5f" text-anchor="middle">FDE 补平现场对不上</text>
+<line x1="597" y1="190" x2="608" y2="190" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="610" y="120" width="180" height="140" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="700.0" y="156.0" font-size="13" fill="#64748b" text-anchor="middle">使用期</text>
+<text x="700.0" y="182.0" font-size="15" fill="#2563eb" text-anchor="middle">客户成功 加 TAM</text>
+<text x="700.0" y="208.0" font-size="12" fill="#1e3a5f" text-anchor="middle">推动用起来</text>
+<text x="700.0" y="234.0" font-size="12" fill="#1e3a5f" text-anchor="middle">问题对接与闭环</text>
+<text x="400" y="320" font-size="14" fill="#ea580c" text-anchor="middle">怕的不是人多，是缺位和越位：没人下场，或让错的人背结果</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect width="800" height="340" fill="#f5f8ff"/>
+  <text x="400" y="42" font-size="20" font-weight="bold" fill="#2563eb" text-anchor="middle">灰度上线三步：每一步都留退路</text>
+  <rect x="40" y="90" width="220" height="130" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="150" y="122" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">第一步：影子运行</text>
+  <text x="150" y="152" font-size="15" fill="#334155" text-anchor="middle">只记录，不拦截</text>
+  <text x="150" y="180" font-size="15" fill="#334155" text-anchor="middle">和人工结果比对</text>
+  <text x="150" y="208" font-size="13" fill="#64748b" text-anchor="middle">先证明它算得对</text>
+  <rect x="290" y="90" width="220" height="130" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="400" y="122" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">第二步：一个车间</text>
+  <text x="400" y="152" font-size="15" fill="#334155" text-anchor="middle">正式出结果</text>
+  <text x="400" y="180" font-size="15" fill="#334155" text-anchor="middle">人工复核兜底</text>
+  <text x="400" y="208" font-size="13" fill="#64748b" text-anchor="middle">问题只发生在一处</text>
+  <rect x="540" y="90" width="220" height="130" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+  <text x="650" y="122" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">第三步：全厂推广</text>
+  <text x="650" y="152" font-size="15" fill="#334155" text-anchor="middle">逐条产线复制</text>
+  <text x="650" y="180" font-size="15" fill="#334155" text-anchor="middle">回滚开关保留</text>
+  <text x="650" y="208" font-size="13" fill="#64748b" text-anchor="middle">随时能退回上一步</text>
+  <line x1="262" y1="155" x2="286" y2="155" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="512" y1="155" x2="536" y2="155" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="400" y="275" font-size="13" fill="#64748b" text-anchor="middle">灰度不是慢，是给信任留台阶</text>
+  <text x="400" y="305" font-size="13" fill="#64748b" text-anchor="middle">一步出问题，只退一步，不用推倒重来</text>
+</svg>

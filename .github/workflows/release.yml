@@ -1,0 +1,91 @@
+# 打 Release：tag 推送时（v*），构建网站静态包 + PDF + EPUB，
+# 创建 GitHub Release 并上传所有文件（仓库 Releases 页可直接下载）。
+# 结构对齐《一个人出海》仓库的 release.yml，另加 SVG→PNG（XeLaTeX 不认 SVG）。
+#
+# 用法：打 tag v0.1.0 推到远端（经 git-database API），或 workflow_dispatch 指定 tag 重跑。
+
+name: release
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: '要发布/重跑的 tag（如 v0.1.0），留空则用触发 ref'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  build-all:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # ---- 网站 ----
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+      - run: npm ci
+        working-directory: site
+      - run: npm run build
+        working-directory: site
+      - name: 打包网站
+        run: |
+          cd site/dist
+          zip -qr ../../site-dist.zip .
+          cd ../..
+
+      # ---- PDF/EPUB ----
+      - name: 安装 Pandoc
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq pandoc
+      - name: 安装 XeLaTeX + 中文支持
+        run: |
+          sudo apt-get install -y -qq texlive-xetex texlive-lang-chinese \
+            texlive-latex-extra latex-cjk-all fonts-noto-cjk
+      - name: 安装 SVG 转 PNG 工具
+        run: sudo apt-get install -y -qq librsvg2-bin
+      - name: 装配手稿
+        run: python3 tools/assemble_manuscript.py manuscript.md
+      - name: SVG 配图转 PNG（供 PDF）
+        run: |
+          mkdir -p images-pdf
+          for f in images/*.svg; do
+            b=$(basename "$f" .svg)
+            rsvg-convert -w 1600 -h 1600 "$f" -o "images-pdf/$b.png"
+          done
+          sed 's|](images/|](images-pdf/|g; s|\.svg)|.png)|g' manuscript.md > manuscript-pdf.md
+      # 封面定稿后：PDF 加 --include-before-body=cover.tex，EPUB 加 --epub-cover-image=images/cover.jpg
+      - name: 构建 PDF
+        run: |
+          pandoc manuscript-pdf.md -o baihua-fde.pdf \
+            --toc --toc-depth=2 -V toc-title="目录" \
+            --pdf-engine=xelatex \
+            -V CJKmainfont="Noto Sans CJK SC" -V CJKmonofont="Noto Sans Mono CJK SC"
+      - name: 构建 EPUB
+        run: |
+          pandoc manuscript.md epub-meta.yaml -o baihua-fde.epub \
+            --toc --toc-depth=2 --split-level=1 \
+            --css=epub-style.css
+
+      - name: 创建 Release
+        uses: softprops/action-gh-release@v2
+        with:
+          # tag 推送时用 ref 名；workflow_dispatch 手动重跑时用输入的 tag
+          tag_name: ${{ inputs.tag || github.ref_name }}
+          files: |
+            site-dist.zip
+            baihua-fde.pdf
+            baihua-fde.epub
+          body: |
+            《白话 FDE》${{ inputs.tag || github.ref_name }}（初稿）
+
+            - EPUB：baihua-fde.epub（手机/阅读器直接打开）
+            - PDF：baihua-fde.pdf
+            - 网站静态包：site-dist.zip（解压即用）
+            - 在线阅读：https://tonywoo.github.io/baihua-fde/

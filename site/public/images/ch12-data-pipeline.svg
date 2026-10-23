@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 370" font-family="sans-serif">
+  <defs>
+    <marker id="arr12" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect width="800" height="370" fill="#f5f8ff"/>
+  <text x="400" y="36" font-size="20" fill="#1e3a5f" text-anchor="middle" font-weight="bold">产线数据管道：从设备到回写</text>
+  <g font-size="14" fill="#1e3a5f">
+    <rect x="15" y="90" width="136" height="92" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="83" y="126" text-anchor="middle" font-weight="bold">产线设备</text>
+    <text x="83" y="150" text-anchor="middle">检验结果</text>
+    <text x="83" y="170" text-anchor="middle">设备状态</text>
+    <rect x="176" y="90" width="136" height="92" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="244" y="126" text-anchor="middle" font-weight="bold">边缘网关</text>
+    <text x="244" y="150" text-anchor="middle">车间内网采集</text>
+    <text x="244" y="170" text-anchor="middle">只单向推出</text>
+    <rect x="337" y="90" width="136" height="92" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+    <text x="405" y="126" text-anchor="middle" font-weight="bold">清洗对齐</text>
+    <text x="405" y="150" text-anchor="middle">对时钟、补缺失</text>
+    <text x="405" y="170" text-anchor="middle">统一口径</text>
+    <rect x="498" y="90" width="136" height="92" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="566" y="126" text-anchor="middle" font-weight="bold">模型判断</text>
+    <text x="566" y="150" text-anchor="middle">质检判定</text>
+    <text x="566" y="170" text-anchor="middle">维修建议</text>
+    <rect x="659" y="90" width="126" height="92" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="722" y="126" text-anchor="middle" font-weight="bold">回写 MES</text>
+    <text x="722" y="150" text-anchor="middle">生成工单</text>
+    <text x="722" y="170" text-anchor="middle">更新看板</text>
+  </g>
+  <g stroke="#2563eb" stroke-width="2">
+    <line x1="151" y1="136" x2="172" y2="136" marker-end="url(#arr12)"/>
+    <line x1="312" y1="136" x2="333" y2="136" marker-end="url(#arr12)"/>
+    <line x1="473" y1="136" x2="494" y2="136" marker-end="url(#arr12)"/>
+    <line x1="634" y1="136" x2="655" y2="136" marker-end="url(#arr12)"/>
+  </g>
+  <rect x="215" y="222" width="370" height="56" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+  <text x="400" y="246" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="bold">卡点：车间是隔离网，数据只能出，不能进</text>
+  <text x="400" y="268" font-size="13" fill="#64748b" text-anchor="middle">回写走 MES 正式接口，关键动作留人工确认</text>
+  <line x1="400" y1="222" x2="400" y2="190" stroke="#ea580c" stroke-width="2"/>
+  <text x="400" y="330" font-size="13" fill="#64748b" text-anchor="middle">演示版从第三步开始，生产版必须从第一步一步步走通</text>
+</svg>

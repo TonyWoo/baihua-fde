@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/></marker></defs>
+<rect x="0" y="0" width="800" height="380" fill="#f5f8ff"/>
+<text x="400.0" y="38" font-family="sans-serif" font-size="20" fill="#1e3a5f" text-anchor="middle" font-weight="bold">演示与生产之间，隔着最后一公里</text>
+<rect x="40" y="90" width="280" height="190" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="180.0" y="118" font-family="sans-serif" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">演示环境</text>
+<text x="180.0" y="138" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">样例数据，提前挑好</text>
+<text x="180.0" y="157" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">问题固定，一条流程</text>
+<text x="180.0" y="176" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">开发者在现场盯着</text>
+<text x="180.0" y="195" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">点一下就有答案</text>
+<rect x="480" y="90" width="280" height="190" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="620.0" y="118" font-family="sans-serif" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">生产环境</text>
+<text x="620.0" y="138" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">真实数据，格式各异</text>
+<text x="620.0" y="157" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">老系统与权限层层关卡</text>
+<text x="620.0" y="176" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">员工按新流程真干活</text>
+<text x="620.0" y="195" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">出了错要有人负责</text>
+<path d="M330,185 L470,185" stroke="#ea580c" stroke-width="3" stroke-dasharray="8,6" marker-end="url(#arr)"/>
+<text x="400" y="165" font-family="sans-serif" font-size="16" fill="#ea580c" text-anchor="middle" font-weight="bold">最后一公里</text>
+<text x="400" y="225" font-family="sans-serif" font-size="13" fill="#64748b" text-anchor="middle" font-weight="normal">最碎、最贵的一段路</text>
+<text x="400" y="330" font-family="sans-serif" font-size="15" fill="#1e3a5f" text-anchor="middle" font-weight="normal">演示跑得通，只证明模型会做题</text>
+<text x="400" y="356" font-family="sans-serif" font-size="15" fill="#ea580c" text-anchor="middle" font-weight="bold">生产跑得通，才证明它能在企业里上班</text>
+</svg>

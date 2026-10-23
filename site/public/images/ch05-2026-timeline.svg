@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" width="800" height="470">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/></marker></defs>
+<rect x="0" y="0" width="800" height="470" fill="#f5f8ff"/>
+<text x="400.0" y="38" font-family="sans-serif" font-size="20" fill="#1e3a5f" text-anchor="middle" font-weight="bold">2026 年大厂 FDE 动作时间线</text>
+<line x1="50" y1="240" x2="750" y2="240" stroke="#2563eb" stroke-width="3"/>
+<circle cx="110" cy="240" r="9" fill="#ea580c" stroke="#f5f8ff" stroke-width="2"/>
+<line x1="110" y1="231" x2="110" y2="150" stroke="#64748b" stroke-width="2"/>
+<text x="110" y="262" font-family="sans-serif" font-size="13" fill="#64748b" text-anchor="middle" font-weight="normal">2026 5月4日</text>
+<text x="110" y="96" font-family="sans-serif" font-size="15" fill="#1e3a5f" text-anchor="middle" font-weight="bold">Anthropic</text>
+<text x="110" y="116" font-family="sans-serif" font-size="13" fill="#64748b" text-anchor="middle" font-weight="normal">成立 Ode</text>
+<text x="110" y="134" font-family="sans-serif" font-size="13" fill="#64748b" text-anchor="middle" font-weight="normal">约 15 亿美元</text>
+<circle cx="255" cy="240" r="9" fill="#ea580c" stroke="#f5f8ff" stroke-width="2"/>
+<line x1="255" y1="249" x2="255" y2="330" stroke="#64748b" stroke-width="2"/>
+<text x="255" y="222" font-family="sans-serif" font-size="13" fill="#64748b" text-anchor="middle" font-weight="normal">2026 5月11日</text>
+<text x="255" y="356" font-family="sans-serif" font-size="15" fill="#1e3a5f" text-anchor="middle" font-weight="bold">OpenAI</text>
+<text x="255" y="376" font-family="sans-serif" font-size="13" fill="#64748b" text-anchor="middle" font-weight="normal">Deployment Company</text>
+<text x="255" y="394" font-family="sans-serif" font-size="13" fill="#64748b" text-anchor="middle" font-weight="normal">超 40 亿美元</text>
+<circle cx="400" cy="240" r="9" fill="#ea580c" stroke="#f5f8ff" stroke-width="2"/>
+<line x1="400" y1="231" x2="400" y2="150" stroke="#64748b" stroke-width="2"/>
+<text x="400" y="262" font-family="sans-serif" font-size="13" fill="#64748b" text-anchor="middle" font-weight="normal">2026 6月30日</text>
+<text x="400" y="96" font-family="sans-serif" font-size="15" fill="#1e3a5f" text-anchor="middle" font-weight="bold">AWS</text>
+<text x="400" y="116" font-family="sans-serif" font-size="13" fill="#64748b" text-anchor="middle" font-weight="normal">10 亿美元建</text>
+<text x="400" y="134" font-family="sans-serif" font-size="13" fill="#64748b" text-anchor="middle" font-weight="normal">FDE 组织</text>
+<circle cx="545" cy="240" r="9" fill="#ea580c" stroke="#f5f8ff" stroke-width="2"/>
+<line x1="545" y1="249" x2="545" y2="330" stroke="#64748b" stroke-width="2"/>
+<text x="545" y="222" font-family="sans-serif" font-size="13" fill="#64748b" text-anchor="middle" font-weight="normal">2026 7月2日</text>
+<text x="545" y="356" font-family="sans-serif" font-size="15" fill="#1e3a5f" text-anchor="middle" font-weight="bold">Microsoft</text>
+<text x="545" y="376" font-family="sans-serif" font-size="13" fill="#64748b" text-anchor="middle" font-weight="normal">Frontier Company</text>
+<text x="545" y="394" font-family="sans-serif" font-size="13" fill="#64748b" text-anchor="middle" font-weight="normal">25 亿，6000 人</text>
+<circle cx="690" cy="240" r="9" fill="#ea580c" stroke="#f5f8ff" stroke-width="2"/>
+<line x1="690" y1="231" x2="690" y2="150" stroke="#64748b" stroke-width="2"/>
+<text x="690" y="262" font-family="sans-serif" font-size="13" fill="#64748b" text-anchor="middle" font-weight="normal">2026 10月2日</text>
+<text x="690" y="96" font-family="sans-serif" font-size="15" fill="#1e3a5f" text-anchor="middle" font-weight="bold">Anthropic</text>
+<text x="690" y="116" font-family="sans-serif" font-size="13" fill="#64748b" text-anchor="middle" font-weight="normal">Frontier Academy</text>
+<text x="690" y="134" font-family="sans-serif" font-size="13" fill="#64748b" text-anchor="middle" font-weight="normal">1 亿训 1 万人</text>
+<text x="400" y="445" font-family="sans-serif" font-size="15" fill="#ea580c" text-anchor="middle" font-weight="bold">先比谁更敢为部署花钱，再比谁能把人训出来</text>
+</svg>

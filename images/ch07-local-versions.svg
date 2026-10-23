@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 355" width="800" height="355">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/></marker></defs>
+<rect x="0" y="0" width="800" height="355" fill="#f5f8ff"/>
+<text x="400.0" y="38" font-family="sans-serif" font-size="20" fill="#1e3a5f" text-anchor="middle" font-weight="bold">本土三类玩家，各有一张牌</text>
+<rect x="30" y="85" width="240" height="200" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="150.0" y="113" font-family="sans-serif" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">大模型公司</text>
+<text x="150.0" y="133" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">长处：离技术最近</text>
+<text x="150.0" y="152" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">模型能力在自己手里</text>
+<text x="150.0" y="171" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">短板：交付队伍年轻</text>
+<text x="150.0" y="190" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">行业积累要现补</text>
+<rect x="280" y="85" width="240" height="200" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="400.0" y="113" font-family="sans-serif" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">云厂商</text>
+<text x="400.0" y="133" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">长处：基础设施齐全</text>
+<text x="400.0" y="152" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">大客户基础厚</text>
+<text x="400.0" y="171" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">短板：离业务流程</text>
+<text x="400.0" y="190" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">隔了一层</text>
+<rect x="530" y="85" width="240" height="200" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="650.0" y="113" font-family="sans-serif" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">集成商</text>
+<text x="650.0" y="133" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">长处：常年驻场</text>
+<text x="650.0" y="152" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">行业关系与实施经验深</text>
+<text x="650.0" y="171" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">短板：AI 工程能力</text>
+<text x="650.0" y="190" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">参差不齐</text>
+<text x="400" y="330" font-family="sans-serif" font-size="15" fill="#ea580c" text-anchor="middle" font-weight="bold">早期主力，更可能先出现在离客户最近的人手里</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect width="800" height="340" fill="#f5f8ff"/>
+  <text x="400" y="42" font-size="20" font-weight="bold" fill="#2563eb" text-anchor="middle">入场 72 小时：先看清，再动手</text>
+  <rect x="40" y="90" width="220" height="130" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="150" y="122" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">第一天：看</text>
+  <text x="150" y="152" font-size="15" fill="#334155" text-anchor="middle">跟班走产线</text>
+  <text x="150" y="180" font-size="15" fill="#334155" text-anchor="middle">看真实操作顺序</text>
+  <text x="150" y="208" font-size="13" fill="#64748b" text-anchor="middle">不评价，不承诺</text>
+  <rect x="290" y="90" width="220" height="130" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="400" y="122" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">第二天：问</text>
+  <text x="400" y="152" font-size="15" fill="#334155" text-anchor="middle">访谈一线人员</text>
+  <text x="400" y="180" font-size="15" fill="#334155" text-anchor="middle">问昨天发生了什么</text>
+  <text x="400" y="208" font-size="13" fill="#64748b" text-anchor="middle">只问事实，不问看法</text>
+  <rect x="540" y="90" width="220" height="130" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+  <text x="650" y="122" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">第三天：画</text>
+  <text x="650" y="152" font-size="15" fill="#334155" text-anchor="middle">画出真实流程图</text>
+  <text x="650" y="180" font-size="15" fill="#334155" text-anchor="middle">与一线当面对齐</text>
+  <text x="650" y="208" font-size="13" fill="#64748b" text-anchor="middle">对齐了才算数</text>
+  <line x1="262" y1="155" x2="286" y2="155" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="512" y1="155" x2="536" y2="155" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="400" y="275" font-size="13" fill="#64748b" text-anchor="middle">三天不写代码，是为了后面四十多天不返工</text>
+  <text x="400" y="305" font-size="13" fill="#64748b" text-anchor="middle">产出只有一样：一张被一线确认过的真实流程图</text>
+</svg>

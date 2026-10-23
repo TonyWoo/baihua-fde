@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 395" width="800" height="395">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/></marker></defs>
+<rect x="0" y="0" width="800" height="395" fill="#f5f8ff"/>
+<text x="400.0" y="38" font-family="sans-serif" font-size="20" fill="#1e3a5f" text-anchor="middle" font-weight="bold">怎么读「95% 试点无回报」</text>
+<rect x="90" y="110" width="520" height="46" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<rect x="90" y="110" width="494" height="46" rx="6" fill="#2563eb"/>
+<text x="350" y="140" font-family="sans-serif" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="bold">约 95% 试点：没有可衡量的损益影响</text>
+<rect x="610" y="110" width="30" height="46" fill="#ea580c"/>
+<text x="690" y="140" font-family="sans-serif" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="bold">约 5%</text>
+<text x="400" y="195" font-family="sans-serif" font-size="14" fill="#64748b" text-anchor="middle" font-weight="normal">出处：MIT NANDA 2025 年研究，样本与方法有争议</text>
+<rect x="60" y="225" width="320" height="105" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="220.0" y="253" font-family="sans-serif" font-size="15" fill="#1e3a5f" text-anchor="middle" font-weight="bold">它能证明</text>
+<text x="220.0" y="273" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">试点到生产之间</text>
+<text x="220.0" y="292" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">确实有一条鸿沟</text>
+<rect x="420" y="225" width="320" height="105" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+<text x="580.0" y="253" font-family="sans-serif" font-size="15" fill="#1e3a5f" text-anchor="middle" font-weight="bold">它不能证明</text>
+<text x="580.0" y="273" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">AI 没有用，或者</text>
+<text x="580.0" y="292" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">项目注定失败</text>
+<text x="400" y="372" font-family="sans-serif" font-size="15" fill="#ea580c" text-anchor="middle" font-weight="bold">把统计当路况提示，不要当判决书</text>
+</svg>

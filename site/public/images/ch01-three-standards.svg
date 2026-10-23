@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="sans-serif">
+<rect width="800" height="380" fill="#f5f8ff"/>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/></marker></defs>
+<text x="400" y="40" font-size="20" font-weight="bold" fill="#2563eb" text-anchor="middle">判断真假 FDE 的三个硬标准</text>
+<text x="400" y="66" font-size="13" fill="#64748b" text-anchor="middle">不看名片，看这三条</text>
+<rect x="30" y="100" width="240" height="170" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="150.0" y="151.0" font-size="17" fill="#1e3a5f" text-anchor="middle" font-weight="bold">一、写生产代码</text>
+<text x="150.0" y="177.0" font-size="13" fill="#1e3a5f" text-anchor="middle">代码进客户的生产系统</text>
+<text x="150.0" y="203.0" font-size="13" fill="#1e3a5f" text-anchor="middle">天天被真实业务使用</text>
+<text x="150.0" y="229.0" font-size="13" fill="#1e3a5f" text-anchor="middle">不是演示样品</text>
+<rect x="285" y="100" width="240" height="170" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+<text x="405.0" y="151.0" font-size="17" fill="#1e3a5f" text-anchor="middle" font-weight="bold">二、对结果负责</text>
+<text x="405.0" y="177.0" font-size="13" fill="#1e3a5f" text-anchor="middle">考核看业务指标</text>
+<text x="405.0" y="203.0" font-size="13" fill="#1e3a5f" text-anchor="middle">漏检率、响应时长</text>
+<text x="405.0" y="229.0" font-size="13" fill="#1e3a5f" text-anchor="middle">不看工时和文档页数</text>
+<rect x="540" y="100" width="240" height="170" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="660.0" y="151.0" font-size="17" fill="#1e3a5f" text-anchor="middle" font-weight="bold">三、留下能跑的系统</text>
+<text x="660.0" y="177.0" font-size="13" fill="#1e3a5f" text-anchor="middle">撤走后客户能自己维护</text>
+<text x="660.0" y="203.0" font-size="13" fill="#1e3a5f" text-anchor="middle">能继续迭代</text>
+<text x="660.0" y="229.0" font-size="13" fill="#1e3a5f" text-anchor="middle">不靠他本人在场</text>
+<rect x="140" y="300" width="520" height="52" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="400.0" y="331.0" font-size="15" fill="#ea580c" text-anchor="middle">缺任何一条，就更像驻场外包或普通顾问</text>
+</svg>

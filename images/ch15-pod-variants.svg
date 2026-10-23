@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" font-family="sans-serif">
+  <rect width="800" height="360" fill="#f5f8ff"/>
+  <text x="400" y="36" font-size="20" fill="#1e3a5f" text-anchor="middle" font-weight="bold">三种 pod 编制：人数不同，骨架相同</text>
+  <g font-size="14" fill="#1e3a5f">
+    <rect x="20" y="64" width="240" height="216" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="140" y="94" text-anchor="middle" font-size="16" font-weight="bold">Palantir 经典款</text>
+    <text x="140" y="128" text-anchor="middle">Delta：工程师</text>
+    <text x="140" y="156" text-anchor="middle">Echo：部署策略师</text>
+    <text x="140" y="196" text-anchor="middle">两人起步，贴身作战</text>
+    <text x="140" y="224" text-anchor="middle">配大客户、高复杂度</text>
+    <text x="140" y="258" text-anchor="middle" fill="#64748b">源头编制，后来者都在学</text>
+    <rect x="280" y="64" width="240" height="216" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+    <text x="400" y="94" text-anchor="middle" font-size="16" font-weight="bold">Salesforce 二加一</text>
+    <text x="400" y="128" text-anchor="middle">2 名 FDE</text>
+    <text x="400" y="156" text-anchor="middle">加 1 名部署策略师</text>
+    <text x="400" y="196" text-anchor="middle">工程火力翻倍</text>
+    <text x="400" y="224" text-anchor="middle">推进角色不减</text>
+    <text x="400" y="258" text-anchor="middle" fill="#64748b">中等项目的常见解</text>
+    <rect x="540" y="64" width="240" height="216" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="660" y="94" text-anchor="middle" font-size="16" font-weight="bold">AWS 大 pod</text>
+    <text x="660" y="128" text-anchor="middle">5 到 6 人组队</text>
+    <text x="660" y="156" text-anchor="middle">工程师加领域专家</text>
+    <text x="660" y="196" text-anchor="middle">约 45 天一个周期</text>
+    <text x="660" y="224" text-anchor="middle">多条工作线并行</text>
+    <text x="660" y="258" text-anchor="middle" fill="#64748b">大企业、多系统战场</text>
+  </g>
+  <text x="400" y="322" font-size="14" fill="#1e3a5f" text-anchor="middle">骨架都是同一副：写代码的人，加一个懂业务、管推进的人</text>
+</svg>

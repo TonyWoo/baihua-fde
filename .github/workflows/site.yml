@@ -1,0 +1,67 @@
+# 构建 Nimbus 文档站并部署到 GitHub Pages
+#
+# push 到 main 时触发：从 chapters/ 导入前言 + 31 章书稿，
+# 构建 Nimbus 静态站，部署到 https://tonywoo.github.io/baihua-fde/
+# 注意：仓库必须保持公开，改回私有后 Pages 会下线（免费账号限制）。
+
+name: web-book-site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'chapters/**'
+      - 'images/**'
+      - 'site/**'
+      - '.github/workflows/site.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          # astro 7 + nimbus-docs 要求 Node >= 22.12
+          node-version: 22
+          cache: npm
+          cache-dependency-path: site/package-lock.json
+
+      - run: npm ci
+        working-directory: site
+
+      # prebuild 会自动从 chapters/ 导入前言 + 31 章书稿
+      - run: npm run build
+        working-directory: site
+
+      - name: 检查页面数（落地页 1 + 前言 1 + 篇页 7 + 31 章）
+        run: |
+          n=$(find src/content/docs -name '*.md' | wc -l)
+          echo "docs pages: $n"
+          test "$n" -eq 40
+        working-directory: site
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

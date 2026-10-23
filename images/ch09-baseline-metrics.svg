@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" font-family="sans-serif">
+  <rect width="800" height="360" fill="#f5f8ff"/>
+  <text x="400" y="42" font-size="20" font-weight="bold" fill="#2563eb" text-anchor="middle">先量基线，再谈改善</text>
+  <rect x="30" y="80" width="230" height="170" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="145" y="112" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">漏检率基线</text>
+  <text x="145" y="146" font-size="13" fill="#334155" text-anchor="middle">测法：返工与退回</text>
+  <text x="145" y="172" font-size="13" fill="#334155" text-anchor="middle">记录倒推</text>
+  <text x="145" y="198" font-size="13" fill="#334155" text-anchor="middle">口径：人工抽检口径</text>
+  <text x="145" y="224" font-size="13" fill="#64748b" text-anchor="middle">作用：改善有对照</text>
+  <rect x="285" y="80" width="230" height="170" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="400" y="112" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">误报率基线</text>
+  <text x="400" y="146" font-size="13" fill="#334155" text-anchor="middle">测法：统计人工复核</text>
+  <text x="400" y="172" font-size="13" fill="#334155" text-anchor="middle">推翻的比例</text>
+  <text x="400" y="198" font-size="13" fill="#334155" text-anchor="middle">口径：每班多少次</text>
+  <text x="400" y="224" font-size="13" fill="#64748b" text-anchor="middle">作用：不能压垮一线</text>
+  <rect x="540" y="80" width="230" height="170" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+  <text x="655" y="112" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">评估集</text>
+  <text x="655" y="146" font-size="13" fill="#334155" text-anchor="middle">做法：两位师傅</text>
+  <text x="655" y="172" font-size="13" fill="#334155" text-anchor="middle">共同标注，分歧仲裁</text>
+  <text x="655" y="198" font-size="13" fill="#334155" text-anchor="middle">用途：每次改版</text>
+  <text x="655" y="224" font-size="13" fill="#64748b" text-anchor="middle">用同一把尺复测</text>
+  <text x="400" y="295" font-size="13" fill="#64748b" text-anchor="middle">没有基线，上线之后报出的任何数字都是讲故事</text>
+  <text x="400" y="323" font-size="13" fill="#64748b" text-anchor="middle">基线要在写第一行代码之前量完</text>
+</svg>

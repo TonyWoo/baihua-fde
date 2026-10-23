@@ -1,0 +1,19 @@
+/* 白话 SEO EPUB 样式：中文段落首行缩进两字符 */
+p {
+  text-indent: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.75;
+}
+/* 标题、列表、代码块等不缩进 */
+h1, h2, h3, h4, h5, h6,
+li p, blockquote p,
+pre, .sourceCode,
+table p, figcaption p,
+div.line-block p {
+  text-indent: 0;
+}
+/* 表格单元格不缩进 */
+td p, th p {
+  text-indent: 0;
+}

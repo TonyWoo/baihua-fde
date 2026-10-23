@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" width="800" height="350">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/></marker></defs>
+<rect x="0" y="0" width="800" height="350" fill="#f5f8ff"/>
+<text x="400.0" y="38" font-family="sans-serif" font-size="20" fill="#1e3a5f" text-anchor="middle" font-weight="bold">试点死掉的五道关</text>
+<rect x="30" y="110" width="140" height="150" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="100.0" y="138" font-family="sans-serif" font-size="15" fill="#1e3a5f" text-anchor="middle" font-weight="bold">第一关 数据</text>
+<text x="100.0" y="160" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">散在多系统</text>
+<text x="100.0" y="179" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">口径互相打架</text>
+<line x1="172" y1="185" x2="188" y2="185" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="184" y="110" width="140" height="150" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="254.0" y="138" font-family="sans-serif" font-size="15" fill="#1e3a5f" text-anchor="middle" font-weight="bold">第二关 老系统</text>
+<text x="254.0" y="160" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">接口老旧缺失</text>
+<text x="254.0" y="179" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">改动要排期</text>
+<line x1="326" y1="185" x2="342" y2="185" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="338" y="110" width="140" height="150" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="408.0" y="138" font-family="sans-serif" font-size="15" fill="#1e3a5f" text-anchor="middle" font-weight="bold">第三关 权限</text>
+<text x="408.0" y="160" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">合规要求严</text>
+<text x="408.0" y="179" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">审批层层过</text>
+<line x1="480" y1="185" x2="496" y2="185" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="492" y="110" width="140" height="150" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="562.0" y="138" font-family="sans-serif" font-size="15" fill="#1e3a5f" text-anchor="middle" font-weight="bold">第四关 流程</text>
+<text x="562.0" y="160" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">步骤没有变</text>
+<text x="562.0" y="179" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">工具没人用</text>
+<line x1="634" y1="185" x2="650" y2="185" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="646" y="110" width="140" height="150" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="716.0" y="138" font-family="sans-serif" font-size="15" fill="#1e3a5f" text-anchor="middle" font-weight="bold">第五关 组织</text>
+<text x="716.0" y="160" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">无人负总责</text>
+<text x="716.0" y="179" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">业务只围观</text>
+<text x="400" y="300" font-family="sans-serif" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">五道关，没有一道是模型的问题</text>
+<text x="400" y="328" font-family="sans-serif" font-size="14" fill="#64748b" text-anchor="middle" font-weight="normal">全是模型之外的工程与组织问题</text>
+</svg>

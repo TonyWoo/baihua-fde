@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" font-family="sans-serif">
+  <rect x="0" y="0" width="800" height="360" fill="#f5f8ff"/>
+  <text x="400" y="36" font-size="20" fill="#2563eb" text-anchor="middle" font-weight="bold">派不派 FDE：先过三道门</text>
+  <defs>
+    <marker id="arr18" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect x="40" y="80" width="200" height="170" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="140" y="112" font-size="15" fill="#1e293b" text-anchor="middle">第一道门 体量</text>
+  <text x="140" y="142" font-size="13" fill="#64748b" text-anchor="middle">合同额与增购空间</text>
+  <text x="140" y="166" font-size="13" fill="#64748b" text-anchor="middle">能不能覆盖驻场成本</text>
+  <text x="140" y="206" font-size="13" fill="#ea580c" text-anchor="middle">不过：给标准产品</text>
+  <text x="140" y="228" font-size="13" fill="#ea580c" text-anchor="middle">加远程支持</text>
+  <rect x="300" y="80" width="200" height="170" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="400" y="112" font-size="15" fill="#1e293b" text-anchor="middle">第二道门 产品</text>
+  <text x="400" y="142" font-size="13" fill="#64748b" text-anchor="middle">核心功能稳不稳</text>
+  <text x="400" y="166" font-size="13" fill="#64748b" text-anchor="middle">关键能力缺不缺</text>
+  <text x="400" y="206" font-size="13" fill="#ea580c" text-anchor="middle">不过：先派产品团队</text>
+  <text x="400" y="228" font-size="13" fill="#ea580c" text-anchor="middle">打磨到可交付</text>
+  <rect x="560" y="80" width="200" height="170" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="660" y="112" font-size="15" fill="#1e293b" text-anchor="middle">第三道门 人</text>
+  <text x="660" y="142" font-size="13" fill="#64748b" text-anchor="middle">客户侧有没有</text>
+  <text x="660" y="166" font-size="13" fill="#64748b" text-anchor="middle">业务负责人签字担责</text>
+  <text x="660" y="206" font-size="13" fill="#ea580c" text-anchor="middle">不过：先谈目标</text>
+  <text x="660" y="228" font-size="13" fill="#ea580c" text-anchor="middle">再谈进场</text>
+  <line x1="240" y1="165" x2="290" y2="165" stroke="#2563eb" stroke-width="2" marker-end="url(#arr18)"/>
+  <line x1="500" y1="165" x2="550" y2="165" stroke="#2563eb" stroke-width="2" marker-end="url(#arr18)"/>
+  <text x="400" y="292" font-size="15" fill="#2563eb" text-anchor="middle">三道门全过，再派先遣小队摸底一到两周，然后主力进场</text>
+  <text x="400" y="322" font-size="13" fill="#64748b" text-anchor="middle">任意一道不过，派人就是把最贵的资源填进注定做不成的项目</text>
+</svg>

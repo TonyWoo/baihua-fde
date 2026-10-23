@@ -1,0 +1,140 @@
+---
+// 《白话 SEO》首页：直接展示内容 —— 前言 + 7 篇 31 章直达（按篇分组），无版本选择
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Header from "../components/Header.astro";
+import { config } from "virtual:nimbus/config";
+import { withBase } from "@cloudflare/nimbus-docs/runtime";
+
+// Prerender explicitly so the homepage stays a static route under
+// `output: "server"` — an adapter alone must add zero on-demand routes.
+export const prerender = true;
+
+const base = import.meta.env.BASE_URL;
+
+const preface = { slug: "preface", title: "前言：流量不是玄学" };
+
+const parts = [
+  {
+    label: "第一篇 先弄懂搜索引擎在想什么",
+    chapters: [
+      { slug: "part1/ch01", title: "第 1 章 搜索引擎是个图书管理员" },
+      { slug: "part1/ch02", title: "第 2 章 关键词的本质" },
+      { slug: "part1/ch03", title: "第 3 章 排名排的是什么" },
+    ],
+  },
+  {
+    label: "第二篇 选词定生死",
+    chapters: [
+      { slug: "part2/ch04", title: "第 4 章 先看对手" },
+      { slug: "part2/ch05", title: "第 5 章 长尾词" },
+      { slug: "part2/ch06", title: "第 6 章 一个词值不值得做" },
+      { slug: "part2/ch07", title: "第 7 章 追新词" },
+      { slug: "part2/ch08", title: "第 8 章 Trends 不说谎" },
+    ],
+  },
+  {
+    label: "第三篇 把站搭对",
+    chapters: [
+      { slug: "part3/ch09", title: "第 9 章 网站结构" },
+      { slug: "part3/ch10", title: "第 10 章 页面基本功" },
+      { slug: "part3/ch11", title: "第 11 章 速度与手机" },
+      { slug: "part3/ch12", title: "第 12 章 一词一页还是一词一站" },
+      { slug: "part3/ch13", title: "第 13 章 多语言站" },
+    ],
+  },
+  {
+    label: "第四篇 内容怎么写才有排名",
+    chapters: [
+      { slug: "part4/ch14", title: "第 14 章 先对意图，再谈文采" },
+      { slug: "part4/ch15", title: "第 15 章 程序化 SEO" },
+      { slug: "part4/ch16", title: "第 16 章 内容集群" },
+      { slug: "part4/ch17", title: "第 17 章 AI 写稿的边界" },
+    ],
+  },
+  {
+    label: "第五篇 外链与权重",
+    chapters: [
+      { slug: "part5/ch18", title: "第 18 章 外链就是投票" },
+      { slug: "part5/ch19", title: "第 19 章 正经拿外链" },
+      { slug: "part5/ch20", title: "第 20 章 捷径的代价" },
+    ],
+  },
+  {
+    label: "第六篇 看数据过日子",
+    chapters: [
+      { slug: "part6/ch21", title: "第 21 章 Search Console 只看五个数" },
+      { slug: "part6/ch22", title: "第 22 章 故障排查顺序表" },
+      { slug: "part6/ch23", title: "第 23 章 流量变现" },
+    ],
+  },
+  {
+    label: '第七篇 AI 搜索时代：从"排上去"到"被引用"',
+    chapters: [
+      { slug: "part7/ch24", title: "第 24 章 点击正在消失" },
+      { slug: "part7/ch25", title: "第 25 章 AI 怎么挑答案" },
+      { slug: "part7/ch26", title: "第 26 章 被引用的内容长什么样" },
+      { slug: "part7/ch27", title: "第 27 章 段落为王" },
+      { slug: "part7/ch28", title: "第 28 章 别人嘴里的你" },
+      { slug: "part7/ch29", title: "第 29 章 机器可读的迷信与真相" },
+      { slug: "part7/ch30", title: "第 30 章 量不了就管不了" },
+      { slug: "part7/ch31", title: "第 31 章 SEO 死了吗" },
+    ],
+  },
+];
+---
+
+<BaseLayout title={config.title} description={config.description}>
+  <div class="flex flex-col min-h-screen">
+    <Header />
+    <main id="main-content" tabindex="-1" class="flex-1 mx-auto max-w-4xl w-full px-6 py-16">
+      <h1
+        class="text-foreground leading-tight"
+        style="font-size: var(--nb-h1-size); font-weight: var(--nb-h1-weight); letter-spacing: var(--nb-h1-tracking);"
+      >
+        {config.title}
+      </h1>
+      <p class="mt-3 text-[1.0625rem] text-muted-foreground leading-relaxed">
+        {config.description}
+      </p>
+      <p class="mt-2 text-sm text-muted-foreground">
+        著 Tony Wu
+      </p>
+      <p class="mt-4 text-muted-foreground leading-relaxed">
+        SEO 不是玄学，也不是黑话。这本书用大白话讲透搜索引擎的朴素逻辑：先弄懂它在想什么，
+        再依次解决选词、建站、内容、外链、看数据这五件大事，最后一篇专门讲 AI 搜索时代的新打法
+        GEO——从"排上去"变成"被引用"。全书跟着一个贯穿案例走：独立开发者阿哲，从挖到一个词开始，
+        做一个小工具站，一路做到有稳定搜索流量和第一笔收入。
+      </p>
+
+      <h2 class="mt-12 text-foreground" style="font-size: var(--nb-h2-size); font-weight: var(--nb-h2-weight);">
+        开篇
+      </h2>
+      <div class="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
+        <a
+          href={withBase(`${preface.slug}/`, base)}
+          class="block rounded-lg border border-border p-5 transition-colors hover:border-border-strong no-underline"
+        >
+          <div class="font-medium text-foreground">{preface.title}</div>
+        </a>
+      </div>
+
+      {parts.map((part) => (
+        <>
+          <h2 class="mt-12 text-foreground" style="font-size: var(--nb-h2-size); font-weight: var(--nb-h2-weight);">
+            {part.label}
+          </h2>
+          <div class="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
+            {part.chapters.map((c) => (
+              <a
+                href={withBase(`${c.slug}/`, base)}
+                class="block rounded-lg border border-border p-5 transition-colors hover:border-border-strong no-underline"
+              >
+                <div class="font-medium text-foreground">{c.title}</div>
+              </a>
+            ))}
+          </div>
+        </>
+      ))}
+    </main>
+  </div>
+</BaseLayout>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" font-family="sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect width="800" height="360" fill="#f5f8ff"/>
+  <text x="400" y="42" font-size="20" font-weight="bold" fill="#2563eb" text-anchor="middle">45 天节奏：慢在前面，快在后面</text>
+  <text x="117" y="82" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">第 1 到 3 天</text>
+  <text x="310" y="82" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">第 4 到 14 天</text>
+  <text x="497" y="82" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">第 15 到 30 天</text>
+  <text x="687" y="82" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">第 31 到 45 天</text>
+  <rect x="35" y="100" width="165" height="130" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="117" y="132" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">入场摸底</text>
+  <text x="117" y="162" font-size="13" fill="#334155" text-anchor="middle">访谈一线</text>
+  <text x="117" y="188" font-size="13" fill="#334155" text-anchor="middle">画真实流程</text>
+  <text x="117" y="214" font-size="13" fill="#334155" text-anchor="middle">定目标与基线</text>
+  <rect x="227" y="100" width="165" height="130" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="310" y="132" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">第一版</text>
+  <text x="310" y="162" font-size="13" fill="#334155" text-anchor="middle">接真实数据</text>
+  <text x="310" y="188" font-size="13" fill="#334155" text-anchor="middle">链路全程跑通</text>
+  <text x="310" y="214" font-size="13" fill="#334155" text-anchor="middle">评估集第一次测</text>
+  <rect x="415" y="100" width="165" height="130" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="497" y="132" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">灰度试用</text>
+  <text x="497" y="162" font-size="13" fill="#334155" text-anchor="middle">先影子运行</text>
+  <text x="497" y="188" font-size="13" fill="#334155" text-anchor="middle">再一个车间使用</text>
+  <text x="497" y="214" font-size="13" fill="#334155" text-anchor="middle">人工复核兜底</text>
+  <rect x="605" y="100" width="165" height="130" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+  <text x="687" y="132" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">全厂上线</text>
+  <text x="687" y="162" font-size="13" fill="#334155" text-anchor="middle">逐线推广</text>
+  <text x="687" y="188" font-size="13" fill="#334155" text-anchor="middle">培训班组</text>
+  <text x="687" y="214" font-size="13" fill="#334155" text-anchor="middle">准备交接</text>
+  <line x1="202" y1="165" x2="223" y2="165" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="394" y1="165" x2="411" y2="165" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="582" y1="165" x2="601" y2="165" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="400" y="278" font-size="13" fill="#64748b" text-anchor="middle">每个阶段都有明确出口，达不到就不进下一阶段</text>
+  <text x="400" y="306" font-size="13" fill="#64748b" text-anchor="middle">时间花在摸底和灰度上，返工就少</text>
+</svg>

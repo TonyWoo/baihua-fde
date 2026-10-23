@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 415" width="800" height="415">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/></marker></defs>
+<rect x="0" y="0" width="800" height="415" fill="#f5f8ff"/>
+<text x="400.0" y="38" font-family="sans-serif" font-size="20" fill="#1e3a5f" text-anchor="middle" font-weight="bold">咨询公司的反扑：结盟补短板</text>
+<rect x="40" y="95" width="330" height="170" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="205.0" y="123" font-family="sans-serif" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">咨询公司有什么</text>
+<text x="205.0" y="143" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">人力储备厚，招人训人成体系</text>
+<text x="205.0" y="162" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">大客户关系深，行业门儿清</text>
+<text x="205.0" y="181" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">缺的：AI 产品与工程方法</text>
+<rect x="430" y="95" width="330" height="170" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="595.0" y="123" font-family="sans-serif" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">模型厂商有什么</text>
+<text x="595.0" y="143" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">模型与产品在自己手里</text>
+<text x="595.0" y="162" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">前线方法来自真实交付</text>
+<text x="595.0" y="181" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">缺的：能带项目的人</text>
+<text x="400" y="150" font-family="sans-serif" font-size="15" fill="#1e3a5f" text-anchor="middle" font-weight="normal"></text>
+<path d="M375,180 L425,180" stroke="#ea580c" stroke-width="3" marker-end="url(#arr)"/>
+<path d="M425,205 L375,205" stroke="#ea580c" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="215" y="300" width="370" height="66" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+<text x="400.0" y="328" font-family="sans-serif" font-size="15" fill="#1e3a5f" text-anchor="middle" font-weight="bold">结盟：厂商伙伴名单里坐满咨询公司</text>
+<text x="400" y="395" font-family="sans-serif" font-size="14" fill="#64748b" text-anchor="middle" font-weight="normal">Deloitte、Accenture、KPMG 的 FDE 岗位数位居前列</text>
+</svg>

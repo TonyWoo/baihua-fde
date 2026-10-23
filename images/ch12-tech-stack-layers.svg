@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="sans-serif">
+  <rect width="800" height="460" fill="#f5f8ff"/>
+  <text x="400" y="36" font-size="20" fill="#1e3a5f" text-anchor="middle" font-weight="bold">FDE 的技术栈：五层加一条竖线</text>
+  <g font-size="15" fill="#1e3a5f">
+    <rect x="70" y="64" width="470" height="56" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="90" y="90" font-weight="bold">应用层</text>
+    <text x="90" y="110">界面、工作流、给人用的入口</text>
+    <rect x="70" y="130" width="470" height="56" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="90" y="156" font-weight="bold">智能层</text>
+    <text x="90" y="176">RAG、Agent、提示与工具调用</text>
+    <rect x="70" y="196" width="470" height="56" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+    <text x="90" y="222" font-weight="bold">数据层</text>
+    <text x="90" y="242">管道、清洗、特征与向量库</text>
+    <rect x="70" y="262" width="470" height="56" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+    <text x="90" y="288" font-weight="bold">集成层</text>
+    <text x="90" y="308">老系统接口、消息队列、权限对接</text>
+    <rect x="70" y="328" width="470" height="56" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="90" y="354" font-weight="bold">基础层</text>
+    <text x="90" y="374">云、部署、网络隔离与安全合规</text>
+  </g>
+  <rect x="575" y="64" width="130" height="320" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="640" y="224" font-size="15" fill="#1e3a5f" text-anchor="middle" font-weight="bold" transform="rotate(-90 640 224)">评估与可观测：每一层都要看得见</text>
+  <text x="400" y="425" font-size="13" fill="#64748b" text-anchor="middle">橙色两层最耗时间：客户的真问题，多半卡在数据和集成上</text>
+</svg>

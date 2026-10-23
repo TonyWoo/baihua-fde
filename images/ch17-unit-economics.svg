@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" font-family="sans-serif">
+  <rect x="0" y="0" width="800" height="320" fill="#f5f8ff"/>
+  <text x="400" y="36" font-size="20" fill="#2563eb" text-anchor="middle" font-weight="bold">单位经济：一名 FDE 的账怎么算</text>
+  <defs>
+    <marker id="arr17" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect x="40" y="90" width="200" height="110" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="140" y="122" font-size="15" fill="#1e293b" text-anchor="middle">年综合成本</text>
+  <text x="140" y="150" font-size="13" fill="#64748b" text-anchor="middle">薪酬、差旅、管理分摊</text>
+  <text x="140" y="176" font-size="13" fill="#64748b" text-anchor="middle">假设约 80 万元</text>
+  <rect x="300" y="90" width="200" height="110" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+  <text x="400" y="122" font-size="15" fill="#1e293b" text-anchor="middle">年服务上限</text>
+  <text x="400" y="150" font-size="13" fill="#64748b" text-anchor="middle">扎实服务也就</text>
+  <text x="400" y="176" font-size="13" fill="#ea580c" text-anchor="middle">三到五家客户</text>
+  <rect x="560" y="90" width="200" height="110" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="660" y="122" font-size="15" fill="#1e293b" text-anchor="middle">每家保本线</text>
+  <text x="660" y="150" font-size="13" fill="#64748b" text-anchor="middle">成本除以客户数</text>
+  <text x="660" y="176" font-size="13" fill="#64748b" text-anchor="middle">低于这条线就是亏</text>
+  <line x1="240" y1="145" x2="290" y2="145" stroke="#2563eb" stroke-width="2" marker-end="url(#arr17)"/>
+  <line x1="500" y1="145" x2="550" y2="145" stroke="#2563eb" stroke-width="2" marker-end="url(#arr17)"/>
+  <text x="400" y="248" font-size="13" fill="#64748b" text-anchor="middle">算不过来这笔账，最后只能降人的水平，或者把驻场做成走过场</text>
+  <text x="400" y="274" font-size="13" fill="#64748b" text-anchor="middle">先垫钱、后收钱，所以部署公司需要大额资本垫底</text>
+</svg>

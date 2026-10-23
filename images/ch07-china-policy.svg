@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 445" width="800" height="445">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/></marker></defs>
+<rect x="0" y="0" width="800" height="445" fill="#f5f8ff"/>
+<text x="400.0" y="38" font-family="sans-serif" font-size="20" fill="#1e3a5f" text-anchor="middle" font-weight="bold">FDE 写进政策，说明什么</text>
+<rect x="90" y="80" width="620" height="92" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="400.0" y="108" font-family="sans-serif" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">北京智能体措施（2026）</text>
+<text x="400.0" y="128" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">写明通过「前沿部署工程师（FDE）」等模式，加速智能体应用落地</text>
+<line x1="400" y1="178" x2="400" y2="205" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="90" y="210" width="620" height="92" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="400.0" y="238" font-family="sans-serif" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">北京经开区「AI 人才八条」（2026）</text>
+<text x="400.0" y="258" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">提出引培前沿部署工程师，支持校企协同育人</text>
+<line x1="400" y1="308" x2="400" y2="335" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="90" y="340" width="620" height="78" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+<text x="400.0" y="368" font-family="sans-serif" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">落点：企业自己建队</text>
+<text x="400.0" y="388" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">政策给方向和名分，队伍要一支一支建</text>
+</svg>

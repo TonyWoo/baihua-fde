@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" font-family="sans-serif">
+  <rect x="0" y="0" width="800" height="320" fill="#f5f8ff"/>
+  <text x="400" y="36" font-size="20" fill="#2563eb" text-anchor="middle" font-weight="bold">中小公司的轻量版打法</text>
+  <rect x="40" y="70" width="226" height="160" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="153" y="102" font-size="15" fill="#1e293b" text-anchor="middle">最早几家客户</text>
+  <text x="153" y="136" font-size="13" fill="#64748b" text-anchor="middle">创始人或技术负责人</text>
+  <text x="153" y="160" font-size="13" fill="#64748b" text-anchor="middle">亲自兼 FDE</text>
+  <text x="153" y="196" font-size="13" fill="#64748b" text-anchor="middle">只做标杆客户</text>
+  <rect x="287" y="70" width="226" height="160" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="400" y="102" font-size="15" fill="#1e293b" text-anchor="middle">客户十几家时</text>
+  <text x="400" y="136" font-size="13" fill="#64748b" text-anchor="middle">产品工程师轮值驻场</text>
+  <text x="400" y="160" font-size="13" fill="#64748b" text-anchor="middle">驻完回产品团队复盘</text>
+  <text x="400" y="196" font-size="13" fill="#64748b" text-anchor="middle">回流通道天然通畅</text>
+  <rect x="534" y="70" width="226" height="160" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="647" y="102" font-size="15" fill="#1e293b" text-anchor="middle">客户再多时</text>
+  <text x="647" y="136" font-size="13" fill="#64748b" text-anchor="middle">认证合作伙伴</text>
+  <text x="647" y="160" font-size="13" fill="#64748b" text-anchor="middle">承担一部分驻场</text>
+  <text x="647" y="196" font-size="13" fill="#64748b" text-anchor="middle">自己只留最强的队</text>
+  <text x="400" y="272" font-size="13" fill="#ea580c" text-anchor="middle">人可以少，三条纪律不能少：写生产代码、对结果负责、经验要回流</text>
+</svg>

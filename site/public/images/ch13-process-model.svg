@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 370" font-family="sans-serif">
+  <defs>
+    <marker id="arr13b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect width="800" height="370" fill="#f5f8ff"/>
+  <text x="400" y="36" font-size="20" fill="#1e3a5f" text-anchor="middle" font-weight="bold">流程建模：先画物料怎么走，再画数据怎么走</text>
+  <text x="30" y="82" font-size="15" fill="#1e3a5f" font-weight="bold">物料线</text>
+  <g font-size="14" fill="#1e3a5f">
+    <rect x="80" y="58" width="150" height="52" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="155" y="90" text-anchor="middle">原料入库</text>
+    <rect x="258" y="58" width="150" height="52" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="333" y="90" text-anchor="middle">加工装配</text>
+    <rect x="436" y="58" width="150" height="52" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+    <text x="511" y="90" text-anchor="middle">质检判定</text>
+    <rect x="614" y="58" width="150" height="52" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="689" y="90" text-anchor="middle">入库出货</text>
+  </g>
+  <text x="30" y="182" font-size="15" fill="#1e3a5f" font-weight="bold">数据线</text>
+  <g font-size="14" fill="#1e3a5f">
+    <rect x="80" y="158" width="150" height="52" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="155" y="190" text-anchor="middle">检验记纸单</text>
+    <rect x="258" y="158" width="150" height="52" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="333" y="190" text-anchor="middle">下班人工录入</text>
+    <rect x="436" y="158" width="150" height="52" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="511" y="190" text-anchor="middle">汇总进 MES</text>
+    <rect x="614" y="158" width="150" height="52" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="689" y="190" text-anchor="middle">月底出报表</text>
+  </g>
+  <g stroke="#2563eb" stroke-width="2">
+    <line x1="230" y1="84" x2="254" y2="84" marker-end="url(#arr13b)"/>
+    <line x1="408" y1="84" x2="432" y2="84" marker-end="url(#arr13b)"/>
+    <line x1="586" y1="84" x2="610" y2="84" marker-end="url(#arr13b)"/>
+    <line x1="230" y1="184" x2="254" y2="184" marker-end="url(#arr13b)"/>
+    <line x1="408" y1="184" x2="432" y2="184" marker-end="url(#arr13b)"/>
+    <line x1="586" y1="184" x2="610" y2="184" marker-end="url(#arr13b)"/>
+  </g>
+  <line x1="511" y1="110" x2="511" y2="154" stroke="#ea580c" stroke-width="2" stroke-dasharray="5 4"/>
+  <rect x="190" y="248" width="420" height="58" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+  <text x="400" y="273" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="bold">断点：判定在上午，数据在两天后</text>
+  <text x="400" y="295" font-size="13" fill="#64748b" text-anchor="middle">物料线和数据线对不上，问题件早就流出去了</text>
+  <text x="400" y="338" font-size="13" fill="#64748b" text-anchor="middle">图画到这个程度，才轮得到讨论模型和界面</text>
+</svg>

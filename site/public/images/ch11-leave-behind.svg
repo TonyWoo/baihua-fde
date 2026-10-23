@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="sans-serif">
+  <rect width="800" height="400" fill="#f5f8ff"/>
+  <text x="400" y="42" font-size="20" font-weight="bold" fill="#2563eb" text-anchor="middle">留守物五件套：少一件都算没交完</text>
+  <rect x="30" y="75" width="230" height="105" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="145" y="107" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">生产系统</text>
+  <text x="145" y="137" font-size="13" fill="#334155" text-anchor="middle">能稳定运行</text>
+  <text x="145" y="162" font-size="13" fill="#334155" text-anchor="middle">部署方法说清楚</text>
+  <rect x="285" y="75" width="230" height="105" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="400" y="107" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">评估集</text>
+  <text x="400" y="137" font-size="13" fill="#334155" text-anchor="middle">金标准样本加脚本</text>
+  <text x="400" y="162" font-size="13" fill="#334155" text-anchor="middle">改版能同尺复测</text>
+  <rect x="540" y="75" width="230" height="105" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="655" y="107" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">运行手册</text>
+  <text x="655" y="137" font-size="13" fill="#334155" text-anchor="middle">常见故障处置步骤</text>
+  <text x="655" y="162" font-size="13" fill="#334155" text-anchor="middle">照着做就能恢复</text>
+  <rect x="155" y="205" width="230" height="105" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+  <text x="270" y="237" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">接班人</text>
+  <text x="270" y="267" font-size="13" fill="#334155" text-anchor="middle">王工：能独立处置</text>
+  <text x="270" y="292" font-size="13" fill="#334155" text-anchor="middle">一级问题不出厂求援</text>
+  <rect x="410" y="205" width="230" height="105" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="525" y="237" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">复用组件</text>
+  <text x="525" y="267" font-size="13" fill="#334155" text-anchor="middle">数据接入与标注工具</text>
+  <text x="525" y="292" font-size="13" fill="#334155" text-anchor="middle">下一个场景接着用</text>
+  <text x="400" y="352" font-size="13" fill="#64748b" text-anchor="middle">验收标准不是文档齐不齐，是人走之后系统还能跑</text>
+  <text x="400" y="378" font-size="13" fill="#64748b" text-anchor="middle">五件套里最容易漏的是接班人和评估集</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="sans-serif">
+<rect width="800" height="460" fill="#f5f8ff"/>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/></marker></defs>
+<text x="400" y="40" font-size="20" font-weight="bold" fill="#2563eb" text-anchor="middle">一张岗位地图</text>
+<text x="400" y="66" font-size="13" fill="#64748b" text-anchor="middle">横轴离客户业务远近，纵轴写生产代码深度</text>
+<line x1="90" y1="390" x2="770" y2="390" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="90" y1="390" x2="90" y2="80" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+<text x="430" y="425" font-size="14" fill="#64748b" text-anchor="middle">离客户业务越近 →</text>
+<text x="45" y="235" font-size="14" fill="#64748b" text-anchor="middle" transform="rotate(-90 45 235)">写生产代码越深 →</text>
+<circle cx="180" cy="300" r="6" fill="#2563eb"/>
+<text x="180" y="286" font-size="14" fill="#1e3a5f" text-anchor="middle">软件工程师</text>
+<circle cx="330" cy="270" r="6" fill="#2563eb"/>
+<text x="330" y="256" font-size="14" fill="#1e3a5f" text-anchor="middle">解决方案架构师</text>
+<circle cx="230" cy="345" r="6" fill="#2563eb"/>
+<text x="230" y="331" font-size="14" fill="#1e3a5f" text-anchor="middle">售前</text>
+<circle cx="470" cy="225" r="6" fill="#2563eb"/>
+<text x="470" y="211" font-size="14" fill="#1e3a5f" text-anchor="middle">实施顾问</text>
+<circle cx="640" cy="330" r="6" fill="#2563eb"/>
+<text x="640" y="316" font-size="14" fill="#1e3a5f" text-anchor="middle">客户成功</text>
+<circle cx="590" cy="275" r="6" fill="#2563eb"/>
+<text x="590" y="261" font-size="14" fill="#1e3a5f" text-anchor="middle">技术客户经理</text>
+<rect x="585" y="105" width="180" height="70" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+<text x="675.0" y="132.0" font-size="17" fill="#ea580c" text-anchor="middle" font-weight="bold">FDE</text>
+<text x="675.0" y="158.0" font-size="13" fill="#1e3a5f" text-anchor="middle">最近，也最深</text>
+<circle cx="675" cy="182" r="6" fill="#ea580c"/>
+</svg>

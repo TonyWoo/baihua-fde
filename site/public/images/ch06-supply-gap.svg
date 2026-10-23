@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/></marker></defs>
+<rect x="0" y="0" width="800" height="420" fill="#f5f8ff"/>
+<text x="400.0" y="38" font-family="sans-serif" font-size="20" fill="#1e3a5f" text-anchor="middle" font-weight="bold">供给为什么跟不上需求</text>
+<rect x="40" y="90" width="320" height="130" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="200.0" y="118" font-family="sans-serif" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">需求这一侧</text>
+<text x="200.0" y="138" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">企业试点批量启动</text>
+<text x="200.0" y="157" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">大厂接连成立部署组织</text>
+<text x="200.0" y="176" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">岗位广告按月往上涨</text>
+<rect x="440" y="90" width="320" height="130" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="600.0" y="118" font-family="sans-serif" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">供给这一侧</text>
+<text x="600.0" y="138" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">复合门槛筛掉大多数人</text>
+<text x="600.0" y="157" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">只能在真实项目里出师</text>
+<text x="600.0" y="176" font-family="sans-serif" font-size="14" fill="#1e3a5f" text-anchor="middle" font-weight="normal">跟完两个项目才算成熟</text>
+<path d="M200,235 L330,300" stroke="#ea580c" stroke-width="3" marker-end="url(#arr)"/>
+<path d="M600,235 L470,300" stroke="#ea580c" stroke-width="3" marker-end="url(#arr)"/>
+<rect x="265" y="300" width="270" height="62" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+<text x="400.0" y="328" font-family="sans-serif" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">缺口：有经验的 FDE</text>
+<text x="400" y="398" font-family="sans-serif" font-size="15" fill="#1e3a5f" text-anchor="middle" font-weight="bold">需求按月涨，供给按项目周期长</text>
+</svg>

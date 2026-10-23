@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" font-family="sans-serif">
+<rect width="800" height="440" fill="#f5f8ff"/>
+<defs>
+<marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+<path d="M0,0 L8,4 L0,8 z" fill="#2563eb"/>
+</marker>
+<marker id="arro" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+<path d="M0,0 L8,4 L0,8 z" fill="#ea580c"/>
+</marker>
+</defs>
+<text x="40" y="42" font-size="20" fill="#1e40af">同一个岗位，正在分化成两种活</text>
+<rect x="40" y="180" width="170" height="90" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="125" y="216" font-size="15" fill="#0f172a" text-anchor="middle">今天的 FDE</text>
+<text x="125" y="242" font-size="13" fill="#64748b" text-anchor="middle">两种活混在一起</text>
+<line x1="210" y1="205" x2="330" y2="140" stroke="#ea580c" stroke-width="2" marker-end="url(#arro)"/>
+<line x1="210" y1="245" x2="330" y2="310" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+<text x="268" y="140" font-size="13" fill="#ea580c">越来越自动</text>
+<text x="268" y="330" font-size="13" fill="#2563eb">难以自动</text>
+<rect x="340" y="70" width="420" height="130" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+<text x="550" y="102" font-size="15" fill="#ea580c" text-anchor="middle">执行型：步骤固定的部署活</text>
+<text x="550" y="130" font-size="13" fill="#64748b" text-anchor="middle">按模板接数据、写样板代码、跑例行评估</text>
+<text x="550" y="156" font-size="13" fill="#64748b" text-anchor="middle">输入输出清楚，有标准答案</text>
+<text x="550" y="182" font-size="13" fill="#0f172a" text-anchor="middle">Agent 接手大半，人退到审核位</text>
+<rect x="340" y="250" width="420" height="130" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="550" y="282" font-size="15" fill="#1e40af" text-anchor="middle">开路型：问题本身含糊的活</text>
+<text x="550" y="310" font-size="13" fill="#64748b" text-anchor="middle">找真问题、谈取舍、协调各方</text>
+<text x="550" y="336" font-size="13" fill="#64748b" text-anchor="middle">为结果负责，出了事要认账</text>
+<text x="550" y="362" font-size="13" fill="#0f172a" text-anchor="middle">人更值钱，Agent 只是手里的工具</text>
+<text x="40" y="418" font-size="13" fill="#64748b">分化的标准只有一条：这件事有没有标准答案。</text>
+</svg>

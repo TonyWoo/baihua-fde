@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 410" width="800" height="410">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/></marker></defs>
+<rect x="0" y="0" width="800" height="410" fill="#f5f8ff"/>
+<text x="400.0" y="38" font-family="sans-serif" font-size="20" fill="#1e3a5f" text-anchor="middle" font-weight="bold">三种组织形态，一个内核</text>
+<rect x="30" y="85" width="240" height="210" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="150.0" y="113" font-family="sans-serif" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">独立公司型</text>
+<text x="150.0" y="133" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">Anthropic 的 Ode</text>
+<text x="150.0" y="152" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">OpenAI 的 Deployment Co.</text>
+<text x="150.0" y="171" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">外部资本出钱</text>
+<text x="150.0" y="190" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">自负盈亏，扩张最快</text>
+<rect x="280" y="85" width="240" height="210" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="400.0" y="113" font-family="sans-serif" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">内部组织型</text>
+<text x="400.0" y="133" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">AWS 的 FDE 组织</text>
+<text x="400.0" y="152" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">微软 Frontier Company</text>
+<text x="400.0" y="171" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">公司自己出钱建队</text>
+<text x="400.0" y="190" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">和产品线绑得最紧</text>
+<rect x="530" y="85" width="240" height="210" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="650.0" y="113" font-family="sans-serif" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">直接招人型</text>
+<text x="650.0" y="133" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">Google Cloud 招数百人</text>
+<text x="650.0" y="152" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">Salesforce 组 pod 小队</text>
+<text x="650.0" y="171" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">不设新实体</text>
+<text x="650.0" y="190" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">轻装上阵，靠编制取胜</text>
+<rect x="180" y="330" width="440" height="52" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+<text x="400" y="362" font-family="sans-serif" font-size="15" fill="#ea580c" text-anchor="middle" font-weight="bold">共同点：派工程师进客户现场，按结果交付</text>
+</svg>

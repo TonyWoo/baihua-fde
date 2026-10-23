@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" font-family="sans-serif">
+  <defs>
+    <marker id="arr13a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect width="800" height="320" fill="#f5f8ff"/>
+  <text x="400" y="36" font-size="20" fill="#1e3a5f" text-anchor="middle" font-weight="bold">一周速成行业常识：四步走</text>
+  <g font-size="14" fill="#1e3a5f">
+    <rect x="10" y="80" width="180" height="120" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="100" y="112" text-anchor="middle" font-weight="bold">第一步 跟班</text>
+    <text x="100" y="140" text-anchor="middle">站到质检台边</text>
+    <text x="100" y="162" text-anchor="middle">看完整一天</text>
+    <text x="100" y="184" text-anchor="middle">手上活最诚实</text>
+    <rect x="208" y="80" width="180" height="120" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="298" y="112" text-anchor="middle" font-weight="bold">第二步 攒术语</text>
+    <text x="298" y="140" text-anchor="middle">建一个小词表</text>
+    <text x="298" y="162" text-anchor="middle">黑话逐个问清</text>
+    <text x="298" y="184" text-anchor="middle">口径当场对齐</text>
+    <rect x="406" y="80" width="180" height="120" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+    <text x="496" y="112" text-anchor="middle" font-weight="bold">第三步 画流程</text>
+    <text x="496" y="140" text-anchor="middle">物料怎么走</text>
+    <text x="496" y="162" text-anchor="middle">单据怎么走</text>
+    <text x="496" y="184" text-anchor="middle">断点画出来</text>
+    <rect x="604" y="80" width="180" height="120" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+    <text x="694" y="112" text-anchor="middle" font-weight="bold">第四步 找师傅</text>
+    <text x="694" y="140" text-anchor="middle">认一个内行</text>
+    <text x="694" y="162" text-anchor="middle">随时能问</text>
+    <text x="694" y="184" text-anchor="middle">少走冤枉路</text>
+  </g>
+  <g stroke="#2563eb" stroke-width="2">
+    <line x1="190" y1="140" x2="204" y2="140" marker-end="url(#arr13a)"/>
+    <line x1="388" y1="140" x2="402" y2="140" marker-end="url(#arr13a)"/>
+    <line x1="586" y1="140" x2="600" y2="140" marker-end="url(#arr13a)"/>
+  </g>
+  <text x="400" y="255" font-size="14" fill="#1e3a5f" text-anchor="middle">目标不是一周变内行，是听得懂、问得对、不说外行话</text>
+  <text x="400" y="282" font-size="13" fill="#64748b" text-anchor="middle">顺序不能反：先看现场，再学词，最后才轮到谈方案</text>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="sans-serif">
+  <rect x="0" y="0" width="800" height="380" fill="#f5f8ff"/>
+  <text x="400" y="36" font-size="20" fill="#2563eb" text-anchor="middle" font-weight="bold">反馈回路：现场的经验怎么变成产品</text>
+  <defs>
+    <marker id="arr16a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect x="60" y="80" width="280" height="80" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="200" y="112" font-size="15" fill="#1e293b" text-anchor="middle">第一步 客户现场</text>
+  <text x="200" y="138" font-size="13" fill="#64748b" text-anchor="middle">FDE 为这一家客户做定制</text>
+  <rect x="460" y="80" width="280" height="80" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="600" y="112" font-size="15" fill="#1e293b" text-anchor="middle">第二步 复盘提炼</text>
+  <text x="600" y="138" font-size="13" fill="#64748b" text-anchor="middle">分清专属、共性、产品缺失</text>
+  <rect x="460" y="230" width="280" height="80" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+  <text x="600" y="262" font-size="15" fill="#1e293b" text-anchor="middle">第三步 变成产品功能</text>
+  <text x="600" y="288" font-size="13" fill="#64748b" text-anchor="middle">进路线图，随版本发给所有客户</text>
+  <rect x="60" y="230" width="280" height="80" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="200" y="262" font-size="15" fill="#1e293b" text-anchor="middle">第四步 全体客户受益</text>
+  <text x="200" y="288" font-size="13" fill="#64748b" text-anchor="middle">下个项目少走一半弯路</text>
+  <line x1="340" y1="120" x2="450" y2="120" stroke="#2563eb" stroke-width="2" marker-end="url(#arr16a)"/>
+  <line x1="600" y1="160" x2="600" y2="220" stroke="#2563eb" stroke-width="2" marker-end="url(#arr16a)"/>
+  <line x1="460" y1="270" x2="350" y2="270" stroke="#2563eb" stroke-width="2" marker-end="url(#arr16a)"/>
+  <line x1="200" y1="230" x2="200" y2="170" stroke="#2563eb" stroke-width="2" marker-end="url(#arr16a)"/>
+  <text x="400" y="200" font-size="13" fill="#ea580c" text-anchor="middle">回路断掉，模式就退化成外包</text>
+</svg>

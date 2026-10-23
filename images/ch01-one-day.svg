@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" font-family="sans-serif">
+<rect width="800" height="360" fill="#f5f8ff"/>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2563eb"/></marker></defs>
+<text x="400" y="40" font-size="20" font-weight="bold" fill="#2563eb" text-anchor="middle">FDE 的一天：陆远在临江精工</text>
+<text x="400" y="66" font-size="13" fill="#64748b" text-anchor="middle">没有一件事是等人派工</text>
+<rect x="25" y="120" width="180" height="120" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="115.0" y="159.0" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">上午</text>
+<text x="115.0" y="185.0" font-size="13" fill="#1e3a5f" text-anchor="middle">产线核对漏检样本</text>
+<text x="115.0" y="211.0" font-size="13" fill="#1e3a5f" text-anchor="middle">回工位改数据管道</text>
+<line x1="207" y1="180" x2="218" y2="180" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="220" y="120" width="180" height="120" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="310.0" y="159.0" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">中午</text>
+<text x="310.0" y="185.0" font-size="13" fill="#1e3a5f" text-anchor="middle">和厂长定验收指标</text>
+<text x="310.0" y="211.0" font-size="13" fill="#1e3a5f" text-anchor="middle">检出率由他签字</text>
+<line x1="402" y1="180" x2="413" y2="180" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="415" y="120" width="180" height="120" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="505.0" y="159.0" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">下午</text>
+<text x="505.0" y="185.0" font-size="13" fill="#1e3a5f" text-anchor="middle">接口断了钻进机房</text>
+<text x="505.0" y="211.0" font-size="13" fill="#1e3a5f" text-anchor="middle">自己排障不等工单</text>
+<line x1="597" y1="180" x2="608" y2="180" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="610" y="120" width="180" height="120" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+<text x="700.0" y="159.0" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">晚上</text>
+<text x="700.0" y="185.0" font-size="13" fill="#1e3a5f" text-anchor="middle">真实数据联调</text>
+<text x="700.0" y="211.0" font-size="13" fill="#1e3a5f" text-anchor="middle">日报只写三行结果</text>
+<text x="400" y="300" font-size="14" fill="#64748b" text-anchor="middle">一天的主线：发现问题、自己动手、对当天结果负责</text>
+</svg>

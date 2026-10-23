@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 445" width="800" height="445">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/></marker></defs>
+<rect x="0" y="0" width="800" height="445" fill="#f5f8ff"/>
+<text x="400.0" y="38" font-family="sans-serif" font-size="20" fill="#1e3a5f" text-anchor="middle" font-weight="bold">岗位广告一年涨了 729%</text>
+<rect x="140" y="300" width="130" height="60" fill="#2563eb"/>
+<text x="205" y="285" font-family="sans-serif" font-size="16" fill="#1e3a5f" text-anchor="middle" font-weight="bold">643 个</text>
+<text x="205" y="385" font-family="sans-serif" font-size="14" fill="#64748b" text-anchor="middle" font-weight="normal">2025 年 4 月</text>
+<rect x="430" y="90" width="130" height="270" fill="#2563eb"/>
+<text x="495" y="75" font-family="sans-serif" font-size="16" fill="#ea580c" text-anchor="middle" font-weight="bold">5,330 个</text>
+<text x="495" y="385" font-family="sans-serif" font-size="14" fill="#64748b" text-anchor="middle" font-weight="normal">2026 年 4 月</text>
+<path d="M280,300 L420,110" stroke="#ea580c" stroke-width="3" stroke-dasharray="8,6" marker-end="url(#arr)"/>
+<text x="350" y="185" font-family="sans-serif" font-size="18" fill="#ea580c" text-anchor="middle" font-weight="bold">同比 +729%</text>
+<rect x="590" y="130" width="190" height="150" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+<text x="685.0" y="158" font-family="sans-serif" font-size="15" fill="#1e3a5f" text-anchor="middle" font-weight="bold">口径提醒</text>
+<text x="685.0" y="178" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">这是岗位广告数</text>
+<text x="685.0" y="197" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">不是实际入职数</text>
+<text x="685.0" y="216" font-family="sans-serif" font-size="13" fill="#1e3a5f" text-anchor="middle" font-weight="normal">招不到会一直挂</text>
+<text x="400" y="425" font-family="sans-serif" font-size="13" fill="#64748b" text-anchor="middle" font-weight="normal">数据出处：Indeed 口径，美国 FDE 岗位广告</text>
+</svg>

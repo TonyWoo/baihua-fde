@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/>
+    </marker>
+    <marker id="arro" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#ea580c"/>
+    </marker>
+  </defs>
+  <rect width="800" height="380" fill="#f5f8ff"/>
+  <text x="400" y="42" font-size="20" font-weight="bold" fill="#2563eb" text-anchor="middle">图纸流程与真实流程：差在没写出来的那几步</text>
+  <text x="75" y="128" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">图纸流程</text>
+  <rect x="150" y="95" width="140" height="60" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="220" y="132" font-size="15" fill="#334155" text-anchor="middle">发现异常</text>
+  <rect x="310" y="95" width="140" height="60" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="380" y="132" font-size="15" fill="#334155" text-anchor="middle">系统报修</text>
+  <rect x="470" y="95" width="140" height="60" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="540" y="132" font-size="15" fill="#334155" text-anchor="middle">派工维修</text>
+  <rect x="630" y="95" width="140" height="60" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="700" y="132" font-size="15" fill="#334155" text-anchor="middle">记录归档</text>
+  <line x1="292" y1="125" x2="306" y2="125" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="452" y1="125" x2="466" y2="125" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="612" y1="125" x2="626" y2="125" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="75" y="248" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">真实流程</text>
+  <rect x="150" y="215" width="140" height="60" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+  <text x="220" y="252" font-size="15" fill="#334155" text-anchor="middle">听声音辨异常</text>
+  <rect x="310" y="215" width="140" height="60" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="380" y="252" font-size="15" fill="#334155" text-anchor="middle">口头通知班组</text>
+  <rect x="470" y="215" width="140" height="60" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="540" y="252" font-size="15" fill="#334155" text-anchor="middle">先换件后补单</text>
+  <rect x="630" y="215" width="140" height="60" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+  <text x="700" y="252" font-size="15" fill="#334155" text-anchor="middle">判断只在人脑里</text>
+  <line x1="292" y1="245" x2="306" y2="245" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="452" y1="245" x2="466" y2="245" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="612" y1="245" x2="626" y2="245" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="400" y="325" font-size="13" fill="#64748b" text-anchor="middle">系统里没有的那一步，往往正是最重要的一步</text>
+  <text x="400" y="352" font-size="13" fill="#64748b" text-anchor="middle">按图纸做系统，等于把假流程自动化</text>
+</svg>
