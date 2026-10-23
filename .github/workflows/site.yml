@@ -45,11 +45,11 @@ jobs:
       - run: npm run build
         working-directory: site
 
-      - name: 检查页面数（落地页 1 + 前言 1 + 篇页 7 + 31 章）
+      - name: 检查页面数（落地页 1 + 前言 1 + 篇页 8 + 31 章）
         run: |
           n=$(find src/content/docs -name '*.md' | wc -l)
           echo "docs pages: $n"
-          test "$n" -eq 40
+          test "$n" -eq 41
         working-directory: site
 
       - uses: actions/upload-pages-artifact@v3
