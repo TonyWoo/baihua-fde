@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect width="800" height="380" fill="#f5f8ff"/>
+  <text x="400" y="42" font-size="20" font-weight="bold" fill="#2563eb" text-anchor="middle">BBVA 部署阶梯：先用起来，再谈扩围</text>
+  <rect x="30" y="238" width="175" height="72" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="117" y="266" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">3300 个账号</text>
+  <text x="117" y="292" font-size="13" fill="#334155" text-anchor="middle">2024 年 5 月小范围起步</text>
+  <rect x="218" y="188" width="175" height="122" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="305" y="216" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">扩到 1.1 万人</text>
+  <text x="305" y="242" font-size="13" fill="#334155" text-anchor="middle">员工自己动手</text>
+  <text x="305" y="268" font-size="13" fill="#334155" text-anchor="middle">长出数千个定制 GPT</text>
+  <rect x="406" y="138" width="175" height="172" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="493" y="166" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">日活超过 80%</text>
+  <text x="493" y="192" font-size="13" fill="#334155" text-anchor="middle">人均每周省近 3 小时</text>
+  <text x="493" y="218" font-size="13" fill="#334155" text-anchor="middle">使用数据成为证据</text>
+  <rect x="594" y="88" width="175" height="222" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+  <text x="681" y="116" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">25 国 12 万员工</text>
+  <text x="681" y="142" font-size="13" fill="#334155" text-anchor="middle">2025 年 12 月宣布十倍扩围</text>
+  <text x="681" y="168" font-size="13" fill="#334155" text-anchor="middle">配套结构化培训</text>
+  <text x="681" y="194" font-size="13" fill="#334155" text-anchor="middle">与采用模型一起上</text>
+  <line x1="207" y1="238" x2="216" y2="226" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="395" y1="188" x2="404" y2="176" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="583" y1="138" x2="592" y2="126" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="400" y="340" font-size="13" fill="#64748b" text-anchor="middle">每一级都站稳了，下一级才谈得动</text>
+  <text x="400" y="364" font-size="13" fill="#64748b" text-anchor="middle">数据来源：OpenAI 官网合作公告</text>
+</svg>

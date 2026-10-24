@@ -1,5 +1,5 @@
 ---
-// 《白话 FDE》首页：直接展示内容 —— 前言 + 8 篇 31 章直达（按篇分组），无版本选择
+// 《白话 FDE》首页：直接展示内容 —— 前言 + 9 篇 32 章 + 附录 3 直达（按篇分组），无版本选择
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Header from "../components/Header.astro";
 import { config } from "virtual:nimbus/config";
@@ -85,6 +85,18 @@ const parts = [
       { slug: "part8/ch31", title: "第 31 章 去哪投，投哪种" },
     ],
   },
+  {
+    label: "第九篇 真实案例集",
+    chapters: [
+      { slug: "part9/ch32", title: "第 32 章 三个真实案例" },
+    ],
+  },
+];
+
+const appendices = [
+  { slug: "appendix/a", title: "附录 A FDE 常用指标" },
+  { slug: "appendix/b", title: "附录 B 大厂 FDE 组织一览" },
+  { slug: "appendix/c", title: "附录 C 资料出处" },
 ];
 ---
 
@@ -140,6 +152,20 @@ const parts = [
           </div>
         </>
       ))}
+
+      <h2 class="mt-12 text-foreground" style="font-size: var(--nb-h2-size); font-weight: var(--nb-h2-weight);">
+        附录
+      </h2>
+      <div class="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
+        {appendices.map((a) => (
+          <a
+            href={withBase(`${a.slug}/`, base)}
+            class="block rounded-lg border border-border p-5 transition-colors hover:border-border-strong no-underline"
+          >
+            <div class="font-medium text-foreground">{a.title}</div>
+          </a>
+        ))}
+      </div>
     </main>
   </div>
 </BaseLayout>

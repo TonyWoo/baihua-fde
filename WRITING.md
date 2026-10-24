@@ -68,13 +68,15 @@
 - 案例一律虚构（陆远与临江精工），翻车故事可综合改编但不点名。
 - 对 FDE 的立场：不吹不黑。既写它为什么有效，也写「换皮咨询、FDE 洗白、锁定风险」这些真问题（第七篇）。
 
-## 八、结构（8 篇 31 章，详见 outline/OUTLINE.md）
+## 八、结构（9 篇 32 章 + 附录 3，详见 outline/OUTLINE.md）
 
-前言 + 第一篇 先说清（1–3）/ 第二篇 爆发（4–7）/ 第三篇 项目全程（8–11）/ 第四篇 功夫清单（12–15）/ 第五篇 组织与商业（16–19）/ 第六篇 企业内部建队方法论（20–24）/ 第七篇 争议与未来（25–27）/ 第八篇 入行手册（28–31）。
+前言 + 第一篇 先说清（1–3）/ 第二篇 爆发（4–7）/ 第三篇 项目全程（8–11）/ 第四篇 功夫清单（12–15）/ 第五篇 组织与商业（16–19）/ 第六篇 企业内部建队方法论（20–24）/ 第七篇 争议与未来（25–27）/ 第八篇 入行手册（28–31）/ 第九篇 真实案例集（32）+ 附录 A 指标字典 / B 大厂组织一览 / C 资料出处。
+
+2026-10-24 修订（参考 fde4.ai 范冰手册后主人拍板）：新增第九篇第 32 章《三个真实案例》与三个附录；第 11 章增补「采用与健康分」；全书陆远故事段精简约两成。第 32 章案例事实口径（只许用这些，均须标注出处）：Palantir AIP 训练营五天制、转化率约 75%（Plank Research 整理）、2024 财年美国商业客户 +55% 至 382 家（Strategy Punk 分析）；BBVA 与 OpenAI：2024-05 从 3300 账号起步、扩至 1.1 万人、日活超 80%、人均每周省近 3 小时、2025-12 宣布扩至 25 国 12 万人（OpenAI 官网公告）；约翰迪尔与 OpenAI FDE：复核数百真实样本、自建评估系统、化学品用量减少最高 70% 为报道口径（MarkTechPost）。精简后各章汉字数以 1700 为下限（原 1800 下限相应放宽，内容密度优先于凑字数）。
 
 ## 九、生产与发版
 
-- 章节文件：`chapters/chNN.md`（含前言 `chapters/ch00-preface.md`），首行 `# 第 N 章 标题`（前言为 `# 前言`）。
-- 书站：Astro + Nimbus Docs，`site/scripts/import-fde.mjs` 在 prebuild 时从 chapters/ 导入；页数 = 落地页 1 + 前言 1 + 篇页 8 + 31 章 = 41。
+- 章节文件：`chapters/chNN.md`（含前言 `chapters/ch00-preface.md`），首行 `# 第 N 章 标题`（前言为 `# 前言`）；附录为 `chapters/appendix-a/b/c.md`。
+- 书站：Astro + Nimbus Docs，`site/scripts/import-fde.mjs` 在 prebuild 时从 chapters/ 导入；页数 = 落地页 1 + 前言 1 + 篇页 9 + 32 章 + 附录 3 = 46。
 - PDF/EPUB：Pandoc + XeLaTeX 管线已备（tools/assemble_manuscript.py + .github/workflows/release.yml），封面未定，打 tag 前不发 Release。
 - 推送走 contents API 逐文件（禁用 gh-push 全量，血泪教训见全局 AGENTS.md）。

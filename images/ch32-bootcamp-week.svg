@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" font-family="sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect width="800" height="340" fill="#f5f8ff"/>
+  <text x="400" y="42" font-size="20" font-weight="bold" fill="#2563eb" text-anchor="middle">训练营五天：把销售周期压缩成一次真实部署</text>
+  <text x="90" y="80" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">第 1 天</text>
+  <text x="242" y="80" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">第 2 天</text>
+  <text x="394" y="80" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">第 3 天</text>
+  <text x="546" y="80" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">第 4 天</text>
+  <text x="698" y="80" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">第 5 天</text>
+  <rect x="20" y="98" width="140" height="140" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="90" y="130" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">接数据</text>
+  <text x="90" y="160" font-size="13" fill="#334155" text-anchor="middle">客户工程师到场</text>
+  <text x="90" y="186" font-size="13" fill="#334155" text-anchor="middle">接真实数据</text>
+  <text x="90" y="212" font-size="13" fill="#334155" text-anchor="middle">不许用样例</text>
+  <rect x="172" y="98" width="140" height="140" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="242" y="130" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">选场景</text>
+  <text x="242" y="160" font-size="13" fill="#334155" text-anchor="middle">只挑一个痛点</text>
+  <text x="242" y="186" font-size="13" fill="#334155" text-anchor="middle">范围当场定死</text>
+  <text x="242" y="212" font-size="13" fill="#334155" text-anchor="middle">说清什么叫做成</text>
+  <rect x="324" y="98" width="140" height="140" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="394" y="130" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">出雏形</text>
+  <text x="394" y="160" font-size="13" fill="#334155" text-anchor="middle">第一版能跑</text>
+  <text x="394" y="186" font-size="13" fill="#334155" text-anchor="middle">链路全程打通</text>
+  <text x="394" y="212" font-size="13" fill="#334155" text-anchor="middle">先粗糙，后完善</text>
+  <rect x="476" y="98" width="140" height="140" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="546" y="130" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">真试用</text>
+  <text x="546" y="160" font-size="13" fill="#334155" text-anchor="middle">业务人员上手</text>
+  <text x="546" y="186" font-size="13" fill="#334155" text-anchor="middle">当场挑错</text>
+  <text x="546" y="212" font-size="13" fill="#334155" text-anchor="middle">连夜改完再试</text>
+  <rect x="628" y="98" width="140" height="140" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+  <text x="698" y="130" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">演示决策</text>
+  <text x="698" y="160" font-size="13" fill="#334155" text-anchor="middle">给决策层看结果</text>
+  <text x="698" y="186" font-size="13" fill="#334155" text-anchor="middle">不是看演示稿</text>
+  <text x="698" y="212" font-size="13" fill="#334155" text-anchor="middle">当场谈后续合作</text>
+  <line x1="161" y1="168" x2="169" y2="168" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="313" y1="168" x2="321" y2="168" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="465" y1="168" x2="473" y2="168" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="617" y1="168" x2="625" y2="168" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="400" y="282" font-size="13" fill="#64748b" text-anchor="middle">五天换一个跑在真实数据上的用例，签约的风险提前验证</text>
+  <text x="400" y="308" font-size="13" fill="#64748b" text-anchor="middle">转化率约 75%（据 Plank Research 整理）</text>
+</svg>

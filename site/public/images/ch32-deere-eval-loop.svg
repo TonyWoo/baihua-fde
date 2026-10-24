@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <rect width="800" height="420" fill="#f5f8ff"/>
+  <text x="400" y="42" font-size="20" font-weight="bold" fill="#2563eb" text-anchor="middle">约翰迪尔评估循环：专家在环，一轮一轮磨</text>
+  <rect x="60" y="84" width="250" height="84" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="185" y="116" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">收集真实样本</text>
+  <text x="185" y="142" font-size="13" fill="#334155" text-anchor="middle">数百个农田里的真实样本</text>
+  <rect x="490" y="84" width="250" height="84" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="615" y="116" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">领域专家复核</text>
+  <text x="615" y="142" font-size="13" fill="#334155" text-anchor="middle">迪尔的专家逐条把关对错</text>
+  <rect x="490" y="238" width="250" height="84" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="615" y="270" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">评估系统打分</text>
+  <text x="615" y="296" font-size="13" fill="#334155" text-anchor="middle">自建评估集，每次改动先过测</text>
+  <rect x="60" y="238" width="250" height="84" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+  <text x="185" y="270" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">按结果迭代</text>
+  <text x="185" y="296" font-size="13" fill="#334155" text-anchor="middle">错在哪类样本，就补哪类</text>
+  <line x1="312" y1="126" x2="486" y2="126" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="615" y1="170" x2="615" y2="234" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="488" y1="280" x2="314" y2="280" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="185" y1="234" x2="185" y2="172" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="400" y="196" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">评估集先行</text>
+  <text x="400" y="222" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">领域专家在环</text>
+  <text x="400" y="360" font-size="13" fill="#64748b" text-anchor="middle">报道称帮助农户减少化学品用量最高达 70%（据 MarkTechPost 报道）</text>
+  <text x="400" y="386" font-size="13" fill="#64748b" text-anchor="middle">进农田和进车间，动作是同一套</text>
+</svg>

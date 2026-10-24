@@ -71,3 +71,13 @@ FDE（Forward Deployed Engineer，前线部署工程师）是 Palantir 发明、
 - [第 29 章 面试拆解](./part8/ch29/)
 - [第 30 章 90 天转型计划](./part8/ch30/)
 - [第 31 章 去哪投，投哪种](./part8/ch31/)
+
+## 第九篇 真实案例集
+
+- [第 32 章 三个真实案例](./part9/ch32/)
+
+## 附录
+
+- [附录 A FDE 常用指标](./appendix/a/)
+- [附录 B 大厂 FDE 组织一览](./appendix/b/)
+- [附录 C 资料出处](./appendix/c/)

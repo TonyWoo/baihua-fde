@@ -36,6 +36,8 @@ PARTS = [
     ("第六篇　企业内部成立 FDE：方法论", ["ch20.md", "ch21.md", "ch22.md", "ch23.md", "ch24.md"]),
     ("第七篇　争议与未来", ["ch25.md", "ch26.md", "ch27.md"]),
     ("第八篇　入行手册", ["ch28.md", "ch29.md", "ch30.md", "ch31.md"]),
+    ("第九篇　真实案例集", ["ch32.md"]),
+    ("附录", ["appendix-a.md", "appendix-b.md", "appendix-c.md"]),
 ]
 
 

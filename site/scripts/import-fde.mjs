@@ -2,8 +2,8 @@
 // import-fde.mjs —— 把 chapters/ 的书稿导入为 nimbus 站点页面
 // 用法：site/ 目录下 node scripts/import-fde.mjs
 // 由 `prebuild` 自动调用，保证构建永远用最新书稿
-// 输出 41 页：落地页 1 + 前言 1 + 篇页 8 + 31 章（每章一页）
-// 章节按篇分文件夹（part1…part7），Nimbus 侧边栏按文件夹分组，
+// 输出 46 页：落地页 1 + 前言 1 + 篇页 9 + 32 章（每章一页）+ 附录 3
+// 章节按篇分文件夹（part1…part9），Nimbus 侧边栏按文件夹分组，
 // 分组名取篇文件夹 index 页（篇页）的标题——没有篇页时组名会是文件夹名（Part1…）。
 // 图片：仓库根 images/ → site/public/images/，正文 ../images/ 改写为 <base>images/
 // ============================================================
@@ -77,6 +77,14 @@ const PARTS = [
   { dir: 'part6', label: '第六篇 企业内部成立 FDE：方法论', lo: 20, hi: 24, intro: '站在企业一侧看：要不要自建、队放在哪里、第一批人从哪来、怎么运转、经验怎么沉淀成资产而不是长在个人身上。' },
   { dir: 'part7', label: '第七篇 争议与未来', lo: 25, hi: 27, intro: '热闹之外有冷水：是不是咨询换皮、锁定与 IP 风险、Agent 会不会把这个岗位吃掉。' },
   { dir: 'part8', label: '第八篇 入行手册', lo: 28, hi: 31, intro: '想干这一行的人看这里：谁适合谁别来、面试在考什么、90 天补课表、五类雇主分别投哪种。' },
+  { dir: 'part9', label: '第九篇 真实案例集', lo: 32, hi: 32, intro: '虚构案例讲方法，真实案例见分量：Palantir 的五天训练营、BBVA 的十二万人部署、约翰迪尔的评估集打法，每个都标注出处。' },
+];
+
+// 附录：文件名、页标题、导读
+const APPENDICES = [
+  { file: 'appendix-a.md', slug: 'a', title: '附录 A FDE 常用指标', intro: '指标字典：定义、算法与出处章节，落地时直接查。' },
+  { file: 'appendix-b.md', slug: 'b', title: '附录 B 大厂 FDE 组织一览', intro: '主要厂商与机构的 FDE 组织形态速查表。' },
+  { file: 'appendix-c.md', slug: 'c', title: '附录 C 资料出处', intro: '本书事实的主要来源与核对方式。' },
 ];
 const partOf = (n) => PARTS.find((p) => n >= p.lo && n <= p.hi);
 
@@ -113,6 +121,7 @@ const TITLES = {
   29: '面试拆解',
   30: '90 天转型计划',
   31: '去哪投，投哪种',
+  32: '三个真实案例',
 };
 const chapterTitle = (n) => `第 ${n} 章 ${TITLES[n]}`;
 
@@ -161,8 +170,8 @@ function main() {
     );
   }
 
-  // 31 章
-  for (let n = 1; n <= 31; n++) {
+  // 32 章
+  for (let n = 1; n <= 32; n++) {
     const part = partOf(n);
     const file = `ch${String(n).padStart(2, '0')}.md`;
     write(
@@ -174,6 +183,20 @@ function main() {
         group: part.label,
       }),
       readChapter(file),
+    );
+  }
+
+  // 附录 3 篇（独立分组「附录」）
+  for (const [i, ap] of APPENDICES.entries()) {
+    write(
+      `appendix/${ap.slug}/index.md`,
+      frontmatter({
+        title: ap.title,
+        description: `《白话 FDE》${ap.title}`,
+        order: 1000 + i * 10,
+        group: '附录',
+      }),
+      readChapter(ap.file),
     );
   }
 
@@ -206,13 +229,17 @@ function main() {
       '- [前言](./preface/)',
       '',
       ...PARTS.map(partList),
+      '## 附录',
+      '',
+      ...APPENDICES.map((ap) => `- [${ap.title}](./appendix/${ap.slug}/)`),
+      '',
     ].join('\n'),
   );
 
-  console.log(`import-fde: 导入完成，31 章，共 ${pages} 页`);
-  // 落地页 1 + 前言 1 + 篇页 8 + 31 章 = 41
-  if (pages !== 41) {
-    console.error(`页数不对：期望 41，实际 ${pages}`);
+  console.log(`import-fde: 导入完成，32 章 + 附录 3，共 ${pages} 页`);
+  // 落地页 1 + 前言 1 + 篇页 9 + 32 章 + 附录 3 = 46
+  if (pages !== 46) {
+    console.error(`页数不对：期望 46，实际 ${pages}`);
     process.exit(1);
   }
 }

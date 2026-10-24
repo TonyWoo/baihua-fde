@@ -4,6 +4,9 @@
   "knownRoutes": [
     "/",
     "/404",
+    "/appendix/a",
+    "/appendix/b",
+    "/appendix/c",
     "/part1",
     "/part1/ch01",
     "/part1/ch02",
@@ -43,6 +46,8 @@
     "/part8/ch29",
     "/part8/ch30",
     "/part8/ch31",
+    "/part9",
+    "/part9/ch32",
     "/preface"
   ],
   "opaqueNamespaces": []

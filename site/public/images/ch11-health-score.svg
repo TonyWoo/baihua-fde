@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430" font-family="sans-serif">
+  <rect width="800" height="430" fill="#f5f8ff"/>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/>
+    </marker>
+  </defs>
+  <text x="400" y="42" font-size="20" font-weight="bold" fill="#2563eb" text-anchor="middle">健康分四要素：撤场后盯住系统还活着没有</text>
+  <rect x="26" y="75" width="175" height="95" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="113" y="107" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">一线采用率</text>
+  <text x="113" y="133" font-size="13" fill="#334155" text-anchor="middle">该用的人真在用</text>
+  <text x="113" y="156" font-size="13" fill="#334155" text-anchor="middle">还是绕开走老办法</text>
+  <rect x="217" y="75" width="175" height="95" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="304" y="107" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">使用趋势</text>
+  <text x="304" y="133" font-size="13" fill="#334155" text-anchor="middle">用量在涨还是在跌</text>
+  <text x="304" y="156" font-size="13" fill="#334155" text-anchor="middle">从哪一周开始变</text>
+  <rect x="408" y="75" width="175" height="95" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="495" y="107" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">关键人参与</text>
+  <text x="495" y="133" font-size="13" fill="#334155" text-anchor="middle">接班人持续在推</text>
+  <text x="495" y="156" font-size="13" fill="#334155" text-anchor="middle">有人替系统说话</text>
+  <rect x="599" y="75" width="175" height="95" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="686" y="107" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">问题响应速度</text>
+  <text x="686" y="133" font-size="13" fill="#334155" text-anchor="middle">报的问题有人处理</text>
+  <text x="686" y="156" font-size="13" fill="#334155" text-anchor="middle">多久能解决</text>
+  <line x1="113" y1="170" x2="340" y2="213" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="304" y1="170" x2="380" y2="213" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="495" y1="170" x2="420" y2="213" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="686" y1="170" x2="460" y2="213" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <rect x="290" y="215" width="220" height="70" rx="6" fill="#ffffff" stroke="#2563eb" stroke-width="2"/>
+  <text x="400" y="243" font-size="15" font-weight="bold" fill="#2563eb" text-anchor="middle">健康分</text>
+  <text x="400" y="266" font-size="13" fill="#334155" text-anchor="middle">四项合成，每月固定看一次</text>
+  <line x1="400" y1="285" x2="400" y2="316" stroke="#2563eb" stroke-width="2" marker-end="url(#arr)"/>
+  <rect x="170" y="318" width="460" height="66" rx="6" fill="#ffffff" stroke="#ea580c" stroke-width="2"/>
+  <text x="400" y="345" font-size="15" font-weight="bold" fill="#ea580c" text-anchor="middle">分数下滑就是预警</text>
+  <text x="400" y="368" font-size="13" fill="#334155" text-anchor="middle">回访、补培训、先修最痛的一个问题</text>
+  <text x="400" y="412" font-size="13" fill="#64748b" text-anchor="middle">单点依赖是隐形扣分项：只系在一个人身上，人一走系统就停摆</text>
+</svg>
